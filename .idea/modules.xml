@@ -3,6 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Lab/Lab.iml" filepath="$PROJECT_DIR$/Lab/Lab.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lab3.iml" filepath="$PROJECT_DIR$/Lab3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab3.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab3.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab3.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/P1ClientServer.iml" filepath="$PROJECT_DIR$/P1ClientServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P1ClientServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/P1ClientServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/P1ClientServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/P1ClientServer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/StartGradle.iml" filepath="$PROJECT_DIR$/StartGradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" />
