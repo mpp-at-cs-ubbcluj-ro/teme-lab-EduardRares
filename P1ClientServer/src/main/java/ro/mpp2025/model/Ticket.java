@@ -3,13 +3,11 @@ package ro.mpp2025.model;
 import java.util.List;
 
 public class Ticket extends Entity<Integer> {
-    private Integer ID;
     private List<String> names;
     private int noOfTickets;
     private Flight flight;
 
-    public Ticket(Integer ID, List<String> names, int noOfTickets, Flight flight) {
-        this.ID = ID;
+    public Ticket(List<String> names, int noOfTickets, Flight flight) {
         this.names = names;
         this.noOfTickets = noOfTickets;
         this.flight = flight;
