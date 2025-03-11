@@ -3,13 +3,11 @@ package ro.mpp2025.model;
 import java.util.Objects;
 
 public class Employee extends Entity<Integer> {
-    private Integer ID;
     private String username;
     private String password;
     private String email;
 
-    public Employee(Integer ID, String username, String password, String email) {
-        this.ID = ID;
+    public Employee(String username, String password, String email) {
         this.username = username;
         this.password = password;
         this.email = email;

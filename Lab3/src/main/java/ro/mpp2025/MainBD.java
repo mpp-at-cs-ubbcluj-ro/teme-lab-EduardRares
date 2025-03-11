@@ -9,7 +9,7 @@ public class MainBD {
 
         Properties props=new Properties();
         try {
-            props.load(new FileReader("Lab3/bd.config"));
+            props.load(new FileReader("D:\\Faculta\\teme-lab-EduardRares\\Lab3\\bd.config"));
         } catch (IOException e) {
             System.out.println("Cannot find bd.config "+e);
         }
@@ -17,7 +17,7 @@ public class MainBD {
         Car newCar = new Car("Tesla","Model S", 2019);
         carRepo.add(newCar);
         newCar.setYear(2020);
-        carRepo.update(newCar.getId(), newCar);
+        carRepo.update(4, newCar);
         System.out.println("Toate masinile din db");
         for(Car car:carRepo.findAll())
             System.out.println(car);

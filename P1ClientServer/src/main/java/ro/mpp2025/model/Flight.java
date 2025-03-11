@@ -3,14 +3,12 @@ package ro.mpp2025.model;
 import java.time.LocalDateTime;
 
 public class Flight extends Entity<String>  {
-    private String ID;
     private String destination;
     private LocalDateTime departureTime;
     private String airport;
     private int numberOfAvailableSeats;
 
-    public Flight(String ID, String destination, LocalDateTime departureTime, String airport, int numberOfSeats) {
-        this.ID = ID;
+    public Flight(String destination, LocalDateTime departureTime, String airport, int numberOfSeats) {
         this.destination = destination;
         this.departureTime = departureTime;
         this.airport = airport;
