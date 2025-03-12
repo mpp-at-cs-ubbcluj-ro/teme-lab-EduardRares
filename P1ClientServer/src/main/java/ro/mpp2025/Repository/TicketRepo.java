@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 
-public class TicketRepo implements Repository<Integer, Ticket>{
+public class TicketRepo implements TicketRepoInterface{
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils dbUtils;
     public TicketRepo(Properties props) {

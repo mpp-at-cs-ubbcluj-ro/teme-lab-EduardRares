@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Properties;
 
-public class EmployeeRepo implements Repository<Integer, Employee>{
+public class EmployeeRepo implements EmployeeRepoInterface{
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils dbUtils;
     public EmployeeRepo(Properties props) {
