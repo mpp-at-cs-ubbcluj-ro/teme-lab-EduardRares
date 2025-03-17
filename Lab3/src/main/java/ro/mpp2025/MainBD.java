@@ -11,7 +11,7 @@ public class MainBD {
         try {
             props.load(new FileReader("D:\\Faculta\\teme-lab-EduardRares\\Lab3\\bd.config"));
         } catch (IOException e) {
-            System.out.println("Cannot find bd.config "+e);
+            System.out.println("Cannot find bd.config " + e);
         }
         CarRepository carRepo=new CarsDBRepository(props);
         Car newCar = new Car("Tesla","Model S", 2019);

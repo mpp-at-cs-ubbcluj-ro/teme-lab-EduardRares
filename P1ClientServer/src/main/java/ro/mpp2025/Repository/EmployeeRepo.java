@@ -18,7 +18,7 @@ public class EmployeeRepo implements EmployeeRepoInterface{
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils dbUtils;
     public EmployeeRepo(Properties props) {
-        logger.info("Initializing CarsDBRepository with properties: {} ",props);
+        logger.info("Initializing EmployeeRepo with properties: {} ",props);
         dbUtils=new JdbcUtils(props);
     }
 

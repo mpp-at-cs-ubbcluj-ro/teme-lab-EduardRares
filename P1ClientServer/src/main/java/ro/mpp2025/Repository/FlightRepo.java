@@ -19,7 +19,7 @@ public class FlightRepo implements FlightRepositoryInterface {
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils dbUtils;
     public FlightRepo(Properties props) {
-        logger.info("Initializing CarsDBRepository with properties: {} ",props);
+        logger.info("Initializing FlightRepo with properties: {} ",props);
         dbUtils=new JdbcUtils(props);
     }
 

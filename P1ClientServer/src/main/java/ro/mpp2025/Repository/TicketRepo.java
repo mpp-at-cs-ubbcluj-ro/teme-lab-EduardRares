@@ -18,7 +18,7 @@ public class TicketRepo implements TicketRepoInterface{
     private static final Logger logger= LogManager.getLogger();
     private JdbcUtils dbUtils;
     public TicketRepo(Properties props) {
-        logger.info("Initializing CarsDBRepository with properties: {} ",props);
+        logger.info("Initializing TicketRepo with properties: {} ",props);
         dbUtils=new JdbcUtils(props);
     }
 
