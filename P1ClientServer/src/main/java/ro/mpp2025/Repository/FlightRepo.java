@@ -6,6 +6,7 @@ import java.sql.*;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +31,7 @@ public class FlightRepo implements FlightRepositoryInterface {
         List<Flight> flights = new ArrayList<>();
         try(PreparedStatement preStmt = conn.prepareStatement("select * from flight where destination = ? and departureDate = ?")) {
             preStmt.setString(1, destination);
-            preStmt.setDate(2, new java.sql.Date(departureDate.toLocalDate().toEpochDay()));
+            preStmt.setLong(2, departureDate.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli());
             try(ResultSet rs = preStmt.executeQuery()) {
                 while(rs.next()) {
                     String id=rs.getString("id");
@@ -82,7 +83,7 @@ public class FlightRepo implements FlightRepositoryInterface {
     }
 
     @Override
-    public Iterable<Flight> findAll() {
+    public List<Flight> findAll() {
         logger.traceEntry();
         Connection conn= dbUtils.getConnection();
         List<Flight> flights = new ArrayList<>();
@@ -149,13 +150,9 @@ public class FlightRepo implements FlightRepositoryInterface {
     public Optional<Flight> update(Flight elem) {
         logger.traceEntry("updating flight {} ", elem);
         Connection conn= dbUtils.getConnection();
-        try(PreparedStatement preStmt = conn.prepareStatement("update flight set destination = ?, airport = ?, numberOfAvailableSeats = ?, departureDate = ?, departureTime = ?  where id=?")) {
-            preStmt.setString(1, elem.getDestination());
-            preStmt.setString(2, elem.getAirport());
-            preStmt.setInt(3, elem.getNumberOfAvailableSeats());
-            preStmt.setDate(4, Date.valueOf(elem.getDepartureTime().toLocalDate()));
-            preStmt.setTime(5, Time.valueOf(elem.getDepartureTime().toLocalTime()));
-            preStmt.setString(6, elem.getId());
+        try(PreparedStatement preStmt = conn.prepareStatement("update flight set numberOfAvailableSeats = ? where id=?")) {
+            preStmt.setInt(1, elem.getNumberOfAvailableSeats());
+            preStmt.setString(2, elem.getId());
             int result=preStmt.executeUpdate();
             logger.trace("Updated {} instances", result);
             return Optional.of(elem);

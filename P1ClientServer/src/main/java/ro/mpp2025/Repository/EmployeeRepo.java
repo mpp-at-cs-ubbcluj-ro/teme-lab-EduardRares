@@ -30,7 +30,7 @@ public class EmployeeRepo implements EmployeeRepoInterface{
         try(PreparedStatement preStmt = conn.prepareStatement("select * from employee where id = ?")) {
             preStmt.setInt(1, integer);
             try(ResultSet rs = preStmt.executeQuery()) {
-                while(rs.next()) {
+                if(rs.next()) {
                     int id = rs.getInt("id");
                     String username = rs.getString("username");
                     String password = rs.getString("password");
@@ -50,7 +50,7 @@ public class EmployeeRepo implements EmployeeRepoInterface{
     }
 
     @Override
-    public Iterable<Employee> findAll() {
+    public List<Employee> findAll() {
         logger.traceEntry();
         Connection conn= dbUtils.getConnection();
         List<Employee> employees = new ArrayList<>();
@@ -120,6 +120,29 @@ public class EmployeeRepo implements EmployeeRepoInterface{
             int result=preStmt.executeUpdate();
             logger.trace("Updated {} instances", result);
             return Optional.of(elem);
+        } catch (SQLException ex) {
+            logger.error(ex);
+            System.err.println("Error DB" + ex);
+        }
+        return Optional.empty();
+    }
+
+    @Override
+    public Optional<Employee> login(String username, String password) {
+        logger.traceEntry();
+        Connection conn= dbUtils.getConnection();
+        try(PreparedStatement preStmt = conn.prepareStatement("select * from employee where username = ? and password = ?")) {
+            preStmt.setString(1, username);
+            preStmt.setString(2, password);
+            try(ResultSet rs = preStmt.executeQuery()) {
+                if(rs.next()) {
+                    int id = rs.getInt("id");
+                    String email = rs.getString("email");
+                    Employee employee = new Employee(username, password, email);
+                    employee.setId(id);
+                    return Optional.of(employee);
+                }
+            }
         } catch (SQLException ex) {
             logger.error(ex);
             System.err.println("Error DB" + ex);

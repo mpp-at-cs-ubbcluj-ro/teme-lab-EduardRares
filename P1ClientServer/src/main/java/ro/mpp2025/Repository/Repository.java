@@ -2,6 +2,7 @@ package ro.mpp2025.Repository;
 import ro.mpp2025.model.Entity;
 import ro.mpp2025.validators.ValidationException;
 
+import java.util.List;
 import java.util.Optional;
 
 /**
@@ -26,7 +27,7 @@ public interface Repository<ID, E extends Entity<ID>> {
      *
      * @return all entities
      */
-    Iterable<E> findAll();
+    List<E> findAll();
 
     /**
      *

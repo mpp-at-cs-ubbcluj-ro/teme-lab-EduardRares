@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: org.openjfx:javafx-controls:23.0.2" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.openjfx" artifactId="javafx-controls" version="23.0.2" baseVersion="23.0.2" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/23.0.2/3373bd35bc816d65ff5232a95990e3e6f68c1a4a/javafx-controls-23.0.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.openjfx/javafx-controls/23.0.2/1308d954540532bbaae246c01ae63b66ea2c77cb/javafx-controls-23.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

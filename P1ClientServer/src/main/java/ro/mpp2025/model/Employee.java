@@ -38,6 +38,11 @@ public class Employee extends Entity<Integer> {
     }
 
     @Override
+    public String toString() {
+        return "Employee [username=" + username + ", password=" + password + ", email=" + email + "]";
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Employee employee = (Employee) o;

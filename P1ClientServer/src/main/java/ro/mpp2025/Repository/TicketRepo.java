@@ -86,7 +86,7 @@ public class TicketRepo implements TicketRepoInterface{
     }
 
     @Override
-    public Iterable<Ticket> findAll() {
+    public List<Ticket> findAll() {
         logger.traceEntry();
         Connection conn= dbUtils.getConnection();
         List<Ticket> tickets = new ArrayList<>();
@@ -139,6 +139,7 @@ public class TicketRepo implements TicketRepoInterface{
                 try (PreparedStatement preStmt1 = conn.prepareStatement("insert into ticketNames(ticketId, fullname) values (?, ?)")) {
                     preStmt1.setInt(1, id);
                     preStmt1.setString(2, s);
+                    preStmt1.executeUpdate();
                 }
             }
             return Optional.of(elem);

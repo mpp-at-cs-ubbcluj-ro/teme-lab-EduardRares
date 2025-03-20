@@ -13,6 +13,8 @@ public class Ticket extends Entity<Integer> {
         this.flight = flight;
     }
 
+    public Ticket() {}
+
     public List<String> getNames() {
         return names;
     }
