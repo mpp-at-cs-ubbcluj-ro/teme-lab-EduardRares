@@ -12,6 +12,9 @@
       <module fileurl="file://$PROJECT_DIR$/StartGradle.iml" filepath="$PROJECT_DIR$/StartGradle.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" filepath="$PROJECT_DIR$/.idea/modules/StartGradle.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TemaLab4.iml" filepath="$PROJECT_DIR$/TemaLab4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab4.main.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab4.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TemaLab4.test.iml" filepath="$PROJECT_DIR$/.idea/modules/TemaLab4.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/teme-lab-EduardRares.iml" filepath="$PROJECT_DIR$/.idea/teme-lab-EduardRares.iml" />
     </modules>
   </component>
