@@ -2,6 +2,21 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClientServer.iml" filepath="$PROJECT_DIR$/ClientServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Services/ClientServer.Services.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientServer.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientServer.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ClientServer.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ClientServer.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab/Lab.iml" filepath="$PROJECT_DIR$/Lab/Lab.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab3.iml" filepath="$PROJECT_DIR$/Lab3.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab3.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab3.main.iml" />

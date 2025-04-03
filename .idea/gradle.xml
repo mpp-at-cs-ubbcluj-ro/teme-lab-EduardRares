@@ -4,6 +4,19 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientServer" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ClientServer" />
+            <option value="$PROJECT_DIR$/ClientServer/Model" />
+            <option value="$PROJECT_DIR$/ClientServer/Persistence" />
+            <option value="$PROJECT_DIR$/ClientServer/Server" />
+            <option value="$PROJECT_DIR$/ClientServer/Services" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Lab3" />
         <option name="gradleHome" value="C:/Gradle" />
         <option name="modules">

@@ -6,6 +6,10 @@
       <excludeFolder url="file://$MODULE_DIR$/TemaLab4/.gradle" />
       <excludeFolder url="file://$MODULE_DIR$/TemaLab4/build" />
     </content>
+    <content url="file://$MODULE_DIR$/TemaLab4">
+      <excludeFolder url="file://$MODULE_DIR$/TemaLab4/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/TemaLab4/build" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>

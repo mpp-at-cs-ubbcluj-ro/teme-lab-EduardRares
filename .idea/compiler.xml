@@ -2,6 +2,21 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="ClientServer" target="23" />
+      <module name="ClientServer.main" target="23" />
+      <module name="ClientServer.Model" target="23" />
+      <module name="ClientServer.Model.main" target="23" />
+      <module name="ClientServer.Model.test" target="23" />
+      <module name="ClientServer.Persistence" target="23" />
+      <module name="ClientServer.Persistence.main" target="23" />
+      <module name="ClientServer.Persistence.test" target="23" />
+      <module name="ClientServer.Server" target="23" />
+      <module name="ClientServer.Server.main" target="23" />
+      <module name="ClientServer.Server.test" target="23" />
+      <module name="ClientServer.Services" target="23" />
+      <module name="ClientServer.Services.main" target="23" />
+      <module name="ClientServer.Services.test" target="23" />
+      <module name="ClientServer.test" target="23" />
       <module name="Lab3" target="23" />
       <module name="Lab3.main" target="23" />
       <module name="Lab3.test" target="23" />

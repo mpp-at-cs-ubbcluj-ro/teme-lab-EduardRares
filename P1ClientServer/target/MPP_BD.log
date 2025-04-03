@@ -544,3 +544,6 @@
 20 Mar 2025 15:03:17,533 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
 20 Mar 2025 15:03:17,533 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
 20 Mar 2025 15:03:17,534 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@4d24a4e3, ro.mpp2025.model.Flight@27ce1da6, ro.mpp2025.model.Flight@740812e0])
+03 Apr 2025 10:51:47,081 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 10:51:47,085 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 10:51:47,088 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 

@@ -7,6 +7,10 @@
       <sourceFolder url="file://$MODULE_DIR$/../../TemaLab4/src/test/java" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/../../TemaLab4/src/test/resources" type="java-test-resource" />
     </content>
+    <content url="file://$MODULE_DIR$/../../TemaLab4/src/test">
+      <sourceFolder url="file://$MODULE_DIR$/../../TemaLab4/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/../../TemaLab4/src/test/resources" type="java-test-resource" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="TemaLab4.main" />
