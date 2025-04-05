@@ -1,11 +1,14 @@
 package ro.mpp2025.controller;
 
+import javafx.application.Platform;
 import javafx.beans.property.SimpleStringProperty;
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
+import javafx.stage.Stage;
 import ro.mpp2025.model.Employee;
 import ro.mpp2025.model.Flight;
 import ro.mpp2025.model.Ticket;
@@ -44,12 +47,18 @@ public class UserController implements Observer<Event> {
     private Button buyButton;
     private ObservableList<Flight> model = FXCollections.observableArrayList();
     private Flight selectedFlight;
+    private Stage stage;
+
     public void setService(Employee user, EmployeeService employeeService, FlightService flightService, TicketService ticketService) {
         this.user = user;
         this.employeeService = employeeService;
         this.flightService = flightService;
         this.ticketService = ticketService;
         flightService.addObserver(this);
+    }
+
+    public void setStage(Stage stage) {
+        this.stage = stage;
     }
 
     @FXML
@@ -120,5 +129,10 @@ public class UserController implements Observer<Event> {
     @Override
     public void update(Event event) {
         handleFlights();
+    }
+
+    @FXML
+    private void handleLogOut() {
+        stage.close();
     }
 }

@@ -24,11 +24,16 @@ public class LoginController {
     private TextField emailText;
     @FXML
     private TextField passwordText;
+    private Stage currStage;
 
     public void setService(EmployeeService employeeService, FlightService flightService, TicketService ticketService) {
         this.employeeService = employeeService;
         this.flightService = flightService;
         this.ticketService = ticketService;
+    }
+
+    public void setStage(Stage stage) {
+        this.currStage = stage;
     }
 
     @FXML
@@ -45,6 +50,7 @@ public class LoginController {
             stage.show();
             UserController userController = fxmlLoader.getController();
             userController.setService(employee.get(), employeeService, flightService, ticketService);
+            userController.setStage(stage);
         }
         else {
             Alert alert = new Alert(Alert.AlertType.ERROR);

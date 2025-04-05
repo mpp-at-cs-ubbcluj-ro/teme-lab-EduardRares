@@ -3,10 +3,16 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="ClientServer" target="23" />
+      <module name="ClientServer.Client" target="23" />
+      <module name="ClientServer.Client.main" target="23" />
+      <module name="ClientServer.Client.test" target="23" />
       <module name="ClientServer.main" target="23" />
       <module name="ClientServer.Model" target="23" />
       <module name="ClientServer.Model.main" target="23" />
       <module name="ClientServer.Model.test" target="23" />
+      <module name="ClientServer.Networking" target="23" />
+      <module name="ClientServer.Networking.main" target="23" />
+      <module name="ClientServer.Networking.test" target="23" />
       <module name="ClientServer.Persistence" target="23" />
       <module name="ClientServer.Persistence.main" target="23" />
       <module name="ClientServer.Persistence.test" target="23" />

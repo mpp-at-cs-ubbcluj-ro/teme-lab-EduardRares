@@ -56,5 +56,6 @@ public class Main extends Application {
         stage.show();
         LoginController loginController = fxmlLoader.getController();
         loginController.setService(employeeService, flightService, ticketService);
+        loginController.setStage(stage);
     }
 }

@@ -1,11 +1,13 @@
 package model;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Ticket extends Entity<Integer> {
+public class Ticket implements Entity<Integer>, Comparable<Ticket>, Serializable {
     private List<String> names;
     private int noOfTickets;
     private Flight flight;
+    private Integer id;
 
     public Ticket(List<String> names, int noOfTickets, Flight flight) {
         this.names = names;
@@ -37,5 +39,20 @@ public class Ticket extends Entity<Integer> {
 
     public void setFlight(Flight flight) {
         this.flight = flight;
+    }
+
+    @Override
+    public int compareTo(Ticket o) {
+        return id.compareTo(o.id);
+    }
+
+    @Override
+    public Integer getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Integer integer) {
+        id = integer;
     }
 }

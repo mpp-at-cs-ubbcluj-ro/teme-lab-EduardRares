@@ -1,16 +1,23 @@
 package model;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Employee extends Entity<Integer> {
+public class Employee implements Entity<Integer>, Comparable<Employee>, Serializable {
     private String username;
     private String password;
     private String email;
+    private Integer id;
 
     public Employee(String username, String password, String email) {
         this.username = username;
         this.password = password;
         this.email = email;
+    }
+
+    public Employee(String username, String password) {
+        this.username = username;
+        this.password = password;
     }
 
     public String getUsername() {
@@ -52,5 +59,19 @@ public class Employee extends Entity<Integer> {
     @Override
     public int hashCode() {
         return Objects.hash(username, password);
+    }
+
+    public int compareTo(Employee o) {
+        return id.compareTo(o.id);
+    }
+
+    @Override
+    public Integer getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(Integer integer) {
+        id = integer;
     }
 }

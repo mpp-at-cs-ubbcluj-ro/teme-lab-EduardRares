@@ -1,12 +1,14 @@
 package model;
 
+import java.io.Serializable;
 import java.time.LocalDateTime;
 
-public class Flight extends Entity<String> {
+public class Flight implements Entity<String>, Comparable<Flight>, Serializable {
     private String destination;
     private LocalDateTime departureTime;
     private String airport;
     private int numberOfAvailableSeats;
+    private String id;
 
     public Flight(String destination, LocalDateTime departureTime, String airport, int numberOfSeats) {
         this.destination = destination;
@@ -45,5 +47,20 @@ public class Flight extends Entity<String> {
 
     public void setNumberOfAvailableSeats(int numberOfAvailableSeats) {
         this.numberOfAvailableSeats = numberOfAvailableSeats;
+    }
+
+    @Override
+    public int compareTo(Flight o) {
+        return id.compareTo(o.id);
+    }
+
+    @Override
+    public String getId() {
+        return id;
+    }
+
+    @Override
+    public void setId(String s) {
+        id = s;
     }
 }

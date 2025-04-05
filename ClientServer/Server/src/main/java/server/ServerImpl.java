@@ -33,7 +33,6 @@ public class ServerImpl implements IService {
 
     private void notifyClients() throws CustomException {
         System.out.println("Notify");
-
         ExecutorService executor= Executors.newFixedThreadPool(defaultNoThreads);
         for(Integer userId: loggedClients.keySet()){
             IObserver client=loggedClients.get(userId);
@@ -72,8 +71,19 @@ public class ServerImpl implements IService {
     }
 
     @Override
+    public void logout(Employee employee, IObserver client) throws CustomException {
+        IObserver localClient=loggedClients.remove(employee.getId());
+        if (localClient==null)
+            throw new CustomException("User "+employee.getId()+" is not logged in.");
+    }
+
+    @Override
     public synchronized void updateFlight(Flight flight) throws CustomException {
         flightRepo.update(flight);
+        for(Integer userId: loggedClients.keySet()){
+            IObserver client=loggedClients.get(userId);
+            notifyClients();
+        }
     }
 
     @Override

@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ClientServer.iml" filepath="$PROJECT_DIR$/ClientServer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Client/ClientServer.Client.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/ClientServer.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/ClientServer.Networking.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" />
