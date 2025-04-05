@@ -1,0 +1,95 @@
+05 Apr 2025 17:51:25,571 DEBUG client.Main 27 start - In start
+05 Apr 2025 17:51:25,576 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+05 Apr 2025 17:51:25,577 INFO  client.Main 47 start - Using server IP localhost
+05 Apr 2025 17:51:25,578 INFO  client.Main 48 start - Using server port 55556
+05 Apr 2025 17:51:26,225 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+05 Apr 2025 17:51:26,225 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+05 Apr 2025 17:51:28,317 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+05 Apr 2025 17:51:28,325 ERROR networking.rpcProtocol.AppServicesRpcProxy 92 initializeConnection - Error initializing connection java.net.ConnectException: Connection refused: connect
+05 Apr 2025 17:51:28,332 ERROR networking.rpcProtocol.AppServicesRpcProxy 93 initializeConnection - [Ljava.lang.StackTraceElement;@257af9a8
+05 Apr 2025 17:51:28,334 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=aa, password=aa, email=null]'} 
+05 Apr 2025 18:47:38,122 DEBUG client.Main 27 start - In start
+05 Apr 2025 18:47:38,126 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+05 Apr 2025 18:47:38,127 INFO  client.Main 47 start - Using server IP localhost
+05 Apr 2025 18:47:38,128 INFO  client.Main 48 start - Using server port 55556
+05 Apr 2025 18:47:38,949 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+05 Apr 2025 18:47:38,949 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+05 Apr 2025 18:47:40,467 DEBUG client.Main 27 start - In start
+05 Apr 2025 18:47:40,471 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+05 Apr 2025 18:47:40,472 INFO  client.Main 47 start - Using server IP localhost
+05 Apr 2025 18:47:40,472 INFO  client.Main 48 start - Using server port 55556
+05 Apr 2025 18:47:41,069 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+05 Apr 2025 18:47:41,070 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+05 Apr 2025 18:47:51,574 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+05 Apr 2025 18:47:51,590 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=null]'} 
+05 Apr 2025 18:47:51,857 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=staff2@gmail.com]'}
+05 Apr 2025 18:47:51,979 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:47:52,889 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@602af109, model.Flight@40975918, model.Flight@3ec0ab1c]'}
+05 Apr 2025 18:47:52,890 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:47:52,994 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+05 Apr 2025 18:47:53,017 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=null]'} 
+05 Apr 2025 18:47:53,042 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'}
+05 Apr 2025 18:47:53,184 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:47:54,048 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@718d61f2, model.Flight@47b2ca57, model.Flight@4273b8b1]'}
+05 Apr 2025 18:47:54,049 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:02,904 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:London, DepartureTime:2025-04-23T00:00'} 
+05 Apr 2025 18:48:02,913 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@71df76ad]'}
+05 Apr 2025 18:48:14,070 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@4f99fac4'} 
+05 Apr 2025 18:48:14,093 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:14,094 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@71df76ad'} 
+05 Apr 2025 18:48:15,107 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:15,108 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:15,108 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:15,108 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:15,109 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:15,109 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:15,109 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:15,110 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:15,111 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:15,111 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:15,113 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:15,117 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@53ba5ab3, model.Flight@291f8645, model.Flight@123c5031]'}
+05 Apr 2025 18:48:15,117 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:15,118 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:16,123 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@3af684c8, model.Flight@651f1517, model.Flight@6f7f7d07]'}
+05 Apr 2025 18:48:16,124 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:16,124 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@ce17c1d, model.Flight@d8fc0f0, model.Flight@587752aa]'}
+05 Apr 2025 18:48:16,124 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:16,125 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:17,134 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@3c37c8ce, model.Flight@32e9cb44, model.Flight@2f43c7a3]'}
+05 Apr 2025 18:48:17,134 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:33,739 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:London, DepartureTime:2025-04-23T00:00'} 
+05 Apr 2025 18:48:33,743 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@28ba3c4d]'}
+05 Apr 2025 18:48:41,358 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@317f1473'} 
+05 Apr 2025 18:48:41,372 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:41,373 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@28ba3c4d'} 
+05 Apr 2025 18:48:42,385 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:42,386 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:42,386 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:42,388 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:42,391 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:42,391 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:42,394 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:42,396 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:42,397 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:42,397 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@3bc00009, model.Flight@39b3de07, model.Flight@45fc919e]'}
+05 Apr 2025 18:48:42,400 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:42,400 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+05 Apr 2025 18:48:42,400 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+05 Apr 2025 18:48:42,402 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:43,409 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@7433385d, model.Flight@4f48ae9a, model.Flight@682c0292]'}
+05 Apr 2025 18:48:43,410 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:43,410 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@2f3cacd3, model.Flight@5c477184, model.Flight@3e479aa4]'}
+05 Apr 2025 18:48:43,410 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:43,419 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+05 Apr 2025 18:48:44,425 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@47e68175, model.Flight@df6e76e, model.Flight@6a5a7c05]'}
+05 Apr 2025 18:48:44,425 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+05 Apr 2025 18:48:45,853 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGOUT', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=staff2@gmail.com]'} 
+05 Apr 2025 18:48:45,854 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:45,855 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+05 Apr 2025 18:48:45,857 DEBUG client.controller.LoginController$1 65 handle - Closing application
+05 Apr 2025 18:48:48,129 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGOUT', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'} 
+05 Apr 2025 18:48:48,131 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+05 Apr 2025 18:48:48,131 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+05 Apr 2025 18:48:48,133 DEBUG client.controller.LoginController$1 65 handle - Closing application
+05 Apr 2025 18:48:48,133 ERROR networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 228 run - Reading error java.net.SocketException: Socket closed
