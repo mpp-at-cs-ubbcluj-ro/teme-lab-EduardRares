@@ -19,5 +19,6 @@
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-graphics:win:23.0.2" level="project" />
     <orderEntry type="library" name="Gradle: org.openjfx:javafx-base:win:23.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.xerial:sqlite-jdbc:3.48.0.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.protobuf:protobuf-java:3.21.9" level="project" />
   </component>
 </module>

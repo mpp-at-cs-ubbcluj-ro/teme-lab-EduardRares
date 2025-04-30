@@ -58,7 +58,9 @@
 
 .table-row-cell:selected {
     -fx-background-color: #D3E3F5;
-    -fx-text-fill: black;
 }
 
+.table-row-cell:selected .table-cell {
+    -fx-text-fill: black;
+}
 

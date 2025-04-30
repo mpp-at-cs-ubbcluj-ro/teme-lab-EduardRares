@@ -159,7 +159,7 @@ public class AppClientRpcWorker implements Runnable, IObserver {
     }
 
     @Override
-    public void update() throws CustomException {
+    public void update(List<Flight> flights) throws CustomException {
         Response resp=new Response.Builder().type(ResponseType.FLIGHT_UPDATED).build();
         try {
             sendResponse(resp);

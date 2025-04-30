@@ -7,6 +7,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import networking.protobuffprotocol.ProtoAppProxy;
 import networking.rpcProtocol.AppServicesRpcProxy;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -36,18 +37,19 @@ public class Main extends Application {
             return;
         }
         String serverIP = clientProps.getProperty("chat.server.host", defaultServer);
-        int serverPort = defaultChatPort;
 
-        try {
-            serverPort = Integer.parseInt(clientProps.getProperty("chat.server.port"));
-        } catch (NumberFormatException ex) {
-            logger.error("Wrong port number " + ex.getMessage());
-            logger.debug("Using default port: " + defaultChatPort);
+        int serverPort=defaultChatPort;
+        try{
+            serverPort=Integer.parseInt(clientProps.getProperty("chat.server.port"));
+        }catch(NumberFormatException ex){
+            System.err.println("Wrong port number " + ex.getMessage());
+            System.out.println("Using default port: " + defaultChatPort);
         }
+
         logger.info("Using server IP " + serverIP);
         logger.info("Using server port " + serverPort);
 
-        IService server = new AppServicesRpcProxy(serverIP, serverPort);
+        IService server = new ProtoAppProxy(serverIP, serverPort);
 
         FXMLLoader loader = new FXMLLoader(
                 getClass().getClassLoader().getResource("LoginInterface.fxml"));

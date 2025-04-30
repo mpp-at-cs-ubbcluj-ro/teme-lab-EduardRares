@@ -7,7 +7,7 @@ public class Ticket implements Entity<Integer>, Comparable<Ticket>, Serializable
     private List<String> names;
     private int noOfTickets;
     private Flight flight;
-    private Integer id;
+    private Integer id = -1;
 
     public Ticket(List<String> names, int noOfTickets, Flight flight) {
         this.names = names;

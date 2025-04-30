@@ -93,3 +93,548 @@
 05 Apr 2025 18:48:48,131 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
 05 Apr 2025 18:48:48,133 DEBUG client.controller.LoginController$1 65 handle - Closing application
 05 Apr 2025 18:48:48,133 ERROR networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 228 run - Reading error java.net.SocketException: Socket closed
+08 Apr 2025 16:38:50,567 DEBUG client.Main 27 start - In start
+08 Apr 2025 16:38:50,568 DEBUG client.Main 27 start - In start
+08 Apr 2025 16:38:50,586 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2025 16:38:50,586 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2025 16:38:50,587 INFO  client.Main 47 start - Using server IP localhost
+08 Apr 2025 16:38:50,587 INFO  client.Main 47 start - Using server IP localhost
+08 Apr 2025 16:38:50,588 INFO  client.Main 48 start - Using server port 55556
+08 Apr 2025 16:38:50,588 INFO  client.Main 48 start - Using server port 55556
+08 Apr 2025 16:38:51,623 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 Apr 2025 16:38:51,624 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 Apr 2025 16:38:51,625 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 Apr 2025 16:38:51,625 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 Apr 2025 16:39:01,526 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+08 Apr 2025 16:39:01,601 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=null]'} 
+08 Apr 2025 16:39:02,126 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'}
+08 Apr 2025 16:39:02,301 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:03,155 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@708af19d, model.Flight@49b45c13, model.Flight@6a8f9368]'}
+08 Apr 2025 16:39:03,156 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:39:13,134 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+08 Apr 2025 16:39:13,196 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=null]'} 
+08 Apr 2025 16:39:13,229 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=staff2@gmail.com]'}
+08 Apr 2025 16:39:13,383 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:14,243 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@31cfc1d7, model.Flight@7b181667, model.Flight@7a29dd40]'}
+08 Apr 2025 16:39:14,244 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:39:32,380 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:London, DepartureTime:2025-04-23T00:00'} 
+08 Apr 2025 16:39:32,410 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@2ff0dfbd]'}
+08 Apr 2025 16:39:51,827 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@31074d8e'} 
+08 Apr 2025 16:39:51,934 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:39:51,935 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@2ff0dfbd'} 
+08 Apr 2025 16:39:52,959 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:39:52,960 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:39:52,960 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:39:52,961 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:39:52,961 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:39:52,964 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:52,966 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:52,973 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:39:52,974 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:39:52,974 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:39:52,975 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:39:52,978 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@679057d3, model.Flight@c2fcbf6, model.Flight@1aad1dc8]'}
+08 Apr 2025 16:39:52,980 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:39:52,982 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:53,975 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@5b6efbbb, model.Flight@6f19fe4b, model.Flight@46bdc922]'}
+08 Apr 2025 16:39:53,976 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:39:53,988 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@50d4e594, model.Flight@351f1e92, model.Flight@479d13bc]'}
+08 Apr 2025 16:39:53,989 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:39:53,990 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:39:54,999 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@55473212, model.Flight@7958b822, model.Flight@5913fae4]'}
+08 Apr 2025 16:39:55,000 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:15,480 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:Paris, DepartureTime:2025-06-17T00:00'} 
+08 Apr 2025 16:40:15,499 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@35ac15da]'}
+08 Apr 2025 16:40:21,262 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@428386f3'} 
+08 Apr 2025 16:40:21,276 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:40:21,277 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@35ac15da'} 
+08 Apr 2025 16:40:22,302 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:22,303 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:22,304 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:22,304 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:22,305 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:40:22,306 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:22,306 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:22,307 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:22,307 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:22,308 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:22,317 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:22,326 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@71cfcc3d, model.Flight@1df4a7b4, model.Flight@21d19580]'}
+08 Apr 2025 16:40:22,327 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:22,329 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:23,329 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@4223bebe, model.Flight@f05c3e6, model.Flight@202a3149]'}
+08 Apr 2025 16:40:23,331 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:23,334 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:23,345 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@67539f84, model.Flight@68720977, model.Flight@5003caca]'}
+08 Apr 2025 16:40:23,347 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:24,355 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@75fdf253, model.Flight@2af4741c, model.Flight@bcf9857]'}
+08 Apr 2025 16:40:24,357 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:28,081 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:Paris, DepartureTime:2025-06-17T00:00'} 
+08 Apr 2025 16:40:28,096 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@7a1e401e]'}
+08 Apr 2025 16:40:35,050 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@8e0dde9'} 
+08 Apr 2025 16:40:35,089 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:40:35,090 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@7a1e401e'} 
+08 Apr 2025 16:40:36,115 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:36,116 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:36,116 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:36,117 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:40:36,117 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:36,118 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:36,119 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:36,119 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+08 Apr 2025 16:40:36,120 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:36,120 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+08 Apr 2025 16:40:36,121 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:36,138 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@7d5338df, model.Flight@687374e, model.Flight@7e46af58]'}
+08 Apr 2025 16:40:36,140 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:36,142 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:37,127 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@606b4a64, model.Flight@69b686e1, model.Flight@1eccb6a0]'}
+08 Apr 2025 16:40:37,129 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:37,135 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:40:37,158 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@30dd6fc0, model.Flight@542c2cc4, model.Flight@6bae4c48]'}
+08 Apr 2025 16:40:37,160 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:38,140 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@165a0bd7, model.Flight@2c585b12, model.Flight@718451f6]'}
+08 Apr 2025 16:40:38,141 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 Apr 2025 16:40:58,468 DEBUG client.Main 27 start - In start
+08 Apr 2025 16:40:58,474 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 Apr 2025 16:40:58,474 INFO  client.Main 47 start - Using server IP localhost
+08 Apr 2025 16:40:58,475 INFO  client.Main 48 start - Using server port 55556
+08 Apr 2025 16:40:59,116 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 Apr 2025 16:40:59,117 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 Apr 2025 16:41:05,322 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+08 Apr 2025 16:41:05,379 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=null]'} 
+08 Apr 2025 16:41:05,401 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='ERROR', data='User already logged in.'}
+08 Apr 2025 16:41:05,402 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+08 Apr 2025 16:41:05,414 ERROR networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 228 run - Reading error java.net.SocketException: Socket closed
+08 Apr 2025 16:41:08,981 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGOUT', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'} 
+08 Apr 2025 16:41:08,989 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+08 Apr 2025 16:41:08,990 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+08 Apr 2025 16:41:08,996 ERROR networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 228 run - Reading error java.net.SocketException: Socket closed
+08 Apr 2025 16:41:11,008 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+08 Apr 2025 16:41:11,009 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=null]'} 
+08 Apr 2025 16:41:11,015 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'}
+08 Apr 2025 16:41:11,205 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+08 Apr 2025 16:41:12,038 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@7da73d3a, model.Flight@6dd7da62, model.Flight@2c8e486b]'}
+08 Apr 2025 16:41:12,041 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:34:44,678 DEBUG client.Main 27 start - In start
+30 Apr 2025 00:34:44,691 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 00:34:44,691 INFO  client.Main 47 start - Using server IP localhost
+30 Apr 2025 00:34:44,692 INFO  client.Main 48 start - Using server port 55556
+30 Apr 2025 00:34:45,303 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 00:34:45,303 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 00:34:58,370 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+30 Apr 2025 00:34:58,385 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=null]'} 
+30 Apr 2025 00:34:58,594 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'}
+30 Apr 2025 00:34:58,716 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:34:59,620 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@7ae5cccb, model.Flight@6f9b0a20, model.Flight@1144d6f4]'}
+30 Apr 2025 00:34:59,621 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:13,574 DEBUG client.Main 27 start - In start
+30 Apr 2025 00:35:13,577 INFO  client.Main 31 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 00:35:13,578 INFO  client.Main 47 start - Using server IP localhost
+30 Apr 2025 00:35:13,578 INFO  client.Main 48 start - Using server port 55556
+30 Apr 2025 00:35:14,143 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 00:35:14,144 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 00:35:26,639 ERROR networking.rpcProtocol.AppServicesRpcProxy 84 initializeConnection - localhost:55556
+30 Apr 2025 00:35:26,653 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=null]'} 
+30 Apr 2025 00:35:26,664 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='LOGIN', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=staff2@gmail.com]'}
+30 Apr 2025 00:35:26,766 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:35:27,681 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@74facfd4, model.Flight@2c07b0ca, model.Flight@1eaf80c7]'}
+30 Apr 2025 00:35:27,681 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:40,483 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_BY_DEST_DEPARTURE', data='DestDepartureDTO:London, DepartureTime:2025-04-23T00:00'} 
+30 Apr 2025 00:35:40,490 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_FILTERED', data='[model.Flight@65a787ab]'}
+30 Apr 2025 00:35:53,004 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='ADD_TICKET', data='model.Ticket@7d281d94'} 
+30 Apr 2025 00:35:53,025 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+30 Apr 2025 00:35:53,025 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='UPDATE_FLIGHT', data='model.Flight@65a787ab'} 
+30 Apr 2025 00:35:54,046 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+30 Apr 2025 00:35:54,049 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+30 Apr 2025 00:35:54,050 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+30 Apr 2025 00:35:54,050 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+30 Apr 2025 00:35:54,050 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+30 Apr 2025 00:35:54,051 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+30 Apr 2025 00:35:54,051 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+30 Apr 2025 00:35:54,051 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='FLIGHT_UPDATED', data='null'}
+30 Apr 2025 00:35:54,052 DEBUG networking.rpcProtocol.AppServicesRpcProxy 105 handleUpdate - Flights in system null
+30 Apr 2025 00:35:54,052 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:35:54,052 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:35:54,058 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@4b4f0d8f, model.Flight@7c32c4cc, model.Flight@4bf65ec8]'}
+30 Apr 2025 00:35:54,058 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:54,059 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:35:55,050 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@5611197e, model.Flight@345a02c3, model.Flight@6d19513c]'}
+30 Apr 2025 00:35:55,051 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:55,051 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='GET_ALL_FLIGHTS', data='null'} 
+30 Apr 2025 00:35:55,065 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@14781794, model.Flight@276843e1, model.Flight@4d16f764]'}
+30 Apr 2025 00:35:55,066 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:56,066 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='GET_ALL_FLIGHTS', data='[model.Flight@2151086b, model.Flight@7f553fd6, model.Flight@1b7d76e5]'}
+30 Apr 2025 00:35:56,066 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 00:35:58,194 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGOUT', data='Employee [username=staff2@gmail.com, password=staff2@gmail.com, email=staff2@gmail.com]'} 
+30 Apr 2025 00:35:58,198 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+30 Apr 2025 00:35:58,199 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+30 Apr 2025 00:35:58,200 DEBUG client.controller.LoginController$1 65 handle - Closing application
+30 Apr 2025 00:35:59,273 DEBUG networking.rpcProtocol.AppServicesRpcProxy 62 sendRequest - Sending request Request{type='LOGOUT', data='Employee [username=staff1@gmail.com, password=staff1@gmail.com, email=staff1@gmail.com]'} 
+30 Apr 2025 00:35:59,275 DEBUG networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 216 run - response received Response{type='OK', data='null'}
+30 Apr 2025 00:35:59,275 DEBUG networking.rpcProtocol.AppServicesRpcProxy 47 closeConnection - Closing connection
+30 Apr 2025 00:35:59,276 DEBUG client.controller.LoginController$1 65 handle - Closing application
+30 Apr 2025 00:35:59,277 ERROR networking.rpcProtocol.AppServicesRpcProxy$ReaderThread 228 run - Reading error java.net.SocketException: Socket closed
+30 Apr 2025 00:38:48,080 DEBUG client.Main 28 start - In start
+30 Apr 2025 00:38:48,083 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 00:38:48,084 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 00:38:48,085 INFO  client.Main 49 start - Using server port 55556
+30 Apr 2025 00:38:48,660 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 00:38:48,660 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 11:35:07,913 DEBUG client.Main 28 start - In start
+30 Apr 2025 11:35:07,928 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 11:35:07,929 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 11:35:07,930 INFO  client.Main 49 start - Using server port 55556
+30 Apr 2025 11:35:09,088 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 11:35:09,089 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 11:38:19,883 DEBUG client.Main 28 start - In start
+30 Apr 2025 11:38:19,888 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 11:38:19,889 ERROR client.Main 45 start - Wrong port number Cannot parse null string
+30 Apr 2025 11:38:19,890 DEBUG client.Main 46 start - Using default port: 55555
+30 Apr 2025 11:38:19,890 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 11:38:19,890 INFO  client.Main 49 start - Using server port 55555
+30 Apr 2025 11:38:20,878 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 11:38:20,878 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 11:59:24,360 DEBUG client.Main 28 start - In start
+30 Apr 2025 11:59:24,366 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 11:59:24,366 ERROR client.Main 45 start - Wrong port number Cannot parse null string
+30 Apr 2025 11:59:24,367 DEBUG client.Main 46 start - Using default port: 55555
+30 Apr 2025 11:59:24,367 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 11:59:24,369 INFO  client.Main 49 start - Using server port 55555
+30 Apr 2025 11:59:26,881 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 11:59:26,882 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:00:38,736 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:00:38,741 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:00:38,741 ERROR client.Main 45 start - Wrong port number Cannot parse null string
+30 Apr 2025 12:00:38,742 DEBUG client.Main 46 start - Using default port: 55555
+30 Apr 2025 12:00:38,742 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 12:00:38,743 INFO  client.Main 49 start - Using server port 55555
+30 Apr 2025 12:00:40,618 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:00:40,620 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:01:27,472 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:01:27,477 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:01:27,477 ERROR client.Main 45 start - Wrong port number Cannot parse null string
+30 Apr 2025 12:01:27,478 DEBUG client.Main 46 start - Using default port: 55555
+30 Apr 2025 12:01:27,478 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 12:01:27,479 INFO  client.Main 49 start - Using server port 55555
+30 Apr 2025 12:01:28,415 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:01:28,416 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:05:21,232 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:05:21,236 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:05:21,237 ERROR client.Main 45 start - Wrong port number Cannot parse null string
+30 Apr 2025 12:05:21,237 DEBUG client.Main 46 start - Using default port: 55555
+30 Apr 2025 12:05:21,238 INFO  client.Main 48 start - Using server IP localhost
+30 Apr 2025 12:05:21,238 INFO  client.Main 49 start - Using server port 55555
+30 Apr 2025 12:05:22,080 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:05:22,081 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:08:05,481 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:08:05,489 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:08:05,492 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:08:05,493 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:08:06,360 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:08:06,360 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:15:44,695 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+30 Apr 2025 12:15:44,695 DEBUG client.controller.LoginController$1 65 handle - Closing application
+30 Apr 2025 12:22:54,194 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:22:54,198 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:22:54,199 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:22:54,200 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:22:54,771 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:22:54,771 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:25:08,123 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:25:08,127 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:25:08,127 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:25:08,129 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:25:08,731 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:25:08,732 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:33:52,721 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:33:52,724 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:33:52,724 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:33:52,725 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:33:53,272 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:33:53,273 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:34:04,956 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:35:23,524 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:35:23,528 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:35:23,528 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:35:23,529 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:35:24,047 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:35:24,048 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:37:29,355 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:37:35,732 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+30 Apr 2025 12:37:35,732 DEBUG client.controller.LoginController$1 65 handle - Closing application
+30 Apr 2025 12:37:55,130 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:37:55,133 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:37:55,134 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:37:55,135 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:37:55,762 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:37:55,762 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:38:49,484 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:38:49,487 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:38:49,488 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:38:49,488 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:38:50,079 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:38:50,079 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:44:02,741 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:44:02,745 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:44:02,745 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:44:02,746 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:44:03,336 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:44:03,336 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:47:20,719 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:47:20,722 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:47:20,723 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:47:20,723 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:47:21,170 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:47:21,171 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:47:30,828 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:48:21,764 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:49:56,727 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:49:56,731 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:49:56,732 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:49:56,732 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:49:57,193 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:49:57,193 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:50:11,429 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:50:42,394 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:51:00,378 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+30 Apr 2025 12:51:00,379 DEBUG client.controller.LoginController$1 65 handle - Closing application
+30 Apr 2025 12:52:03,798 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:52:03,802 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:52:03,803 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:52:03,804 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:52:04,283 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:52:04,284 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:52:12,211 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:52:15,148 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:55:33,357 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:55:33,363 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:55:33,363 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:55:33,364 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:55:33,867 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:55:33,868 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:55:41,534 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 12:57:06,033 DEBUG client.Main 28 start - In start
+30 Apr 2025 12:57:06,037 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 12:57:06,038 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 12:57:06,038 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 12:57:06,625 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 12:57:06,625 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 12:57:30,608 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:00:44,013 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:00:44,016 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:00:44,016 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:00:44,017 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:00:44,663 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:00:44,663 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:01:01,077 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:07:01,579 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:07:01,583 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:07:01,583 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:07:01,584 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:07:02,132 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:07:02,132 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:07:26,571 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:08:21,331 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:11:52,531 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:11:52,535 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:11:52,536 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:11:52,536 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:11:53,144 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:11:53,144 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:12:01,768 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:12:16,985 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:12:16,989 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:12:16,990 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:12:16,990 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:12:17,505 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:12:17,505 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:12:29,335 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:12:56,715 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:12:58,788 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:15:10,341 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:15:10,345 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:15:10,346 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:15:10,346 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:15:10,952 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:15:10,953 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:15:16,961 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:15:16,966 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:15:16,966 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:15:16,967 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:15:17,435 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:15:17,435 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:15:19,511 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:15:27,011 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:18:50,533 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:18:50,537 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:18:50,537 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:18:50,538 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:18:51,166 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:18:51,167 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:19:01,290 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:21:50,614 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:21:50,618 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:21:50,618 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:21:50,619 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:21:51,281 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:21:51,282 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:24:14,153 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:25:12,457 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:25:20,201 DEBUG client.Main 28 start - In start
+30 Apr 2025 13:25:20,206 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 13:25:20,206 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 13:25:20,207 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 13:25:20,748 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 13:25:20,748 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 13:25:30,359 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 13:25:47,962 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:31:22,666 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:31:22,672 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:31:22,673 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:31:22,674 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:31:23,097 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:31:23,102 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:31:23,102 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:31:23,103 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:31:23,495 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:31:23,495 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:31:23,779 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:31:23,780 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:31:55,323 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:32:02,782 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:32:30,298 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:37:35,848 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:38:16,100 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:39:21,580 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:39:39,580 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:23,615 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:35,178 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:36,106 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:36,297 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:36,471 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:36,739 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+30 Apr 2025 21:40:36,933 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:37,388 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:37,565 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:40:38,226 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:46:09,957 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:46:09,961 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:46:09,961 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:46:09,962 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:46:10,669 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:46:10,669 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:46:11,862 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:46:11,868 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:46:11,868 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:46:11,869 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:46:12,485 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:46:12,486 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:46:51,549 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:46:55,976 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:48:14,802 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:49:00,819 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:49:18,271 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:49:19,287 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:49:20,307 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:49:36,385 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:53:00,793 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:53:00,798 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:53:00,798 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:53:00,799 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:53:01,458 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:53:01,459 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:53:06,447 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:53:06,451 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:53:06,452 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:53:06,452 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:53:20,651 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:53:20,654 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:53:20,655 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:53:20,655 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:53:21,099 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:53:21,102 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:53:21,103 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:53:21,103 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:53:21,277 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:53:21,277 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:53:21,759 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:53:21,760 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:53:38,300 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:53:45,380 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:54:26,574 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:55:22,304 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:55:22,308 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:55:22,309 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:55:22,309 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:55:22,918 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:55:22,918 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:55:26,061 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:55:26,065 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:55:26,066 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:55:26,066 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:55:26,570 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:55:26,570 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:56:24,715 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:56:24,718 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:56:24,718 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:56:24,720 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:56:25,380 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:56:25,380 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:56:46,164 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:56:48,163 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:56:48,168 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:56:48,168 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:56:48,169 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:56:48,781 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:56:48,782 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:56:56,761 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:58:07,371 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:58:07,374 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:58:07,375 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:58:07,375 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:58:07,888 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:58:07,888 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:59:04,098 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 21:59:19,057 DEBUG client.Main 28 start - In start
+30 Apr 2025 21:59:19,061 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 21:59:19,061 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 21:59:19,062 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 21:59:19,619 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 21:59:19,619 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 21:59:26,245 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:01:16,764 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:03:35,273 DEBUG client.Main 28 start - In start
+30 Apr 2025 22:03:35,277 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 22:03:35,277 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 22:03:35,278 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 22:03:35,920 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 22:03:35,920 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 22:03:36,016 DEBUG client.Main 28 start - In start
+30 Apr 2025 22:03:36,020 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 22:03:36,020 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 22:03:36,021 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 22:03:36,721 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 22:03:36,722 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 22:04:19,180 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:04:30,679 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:05:21,821 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:05:27,609 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:06:00,313 DEBUG client.Main 28 start - In start
+30 Apr 2025 22:06:00,318 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 22:06:00,319 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 22:06:00,320 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 22:06:00,837 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 22:06:00,837 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 22:06:11,202 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:06:24,903 DEBUG client.Main 28 start - In start
+30 Apr 2025 22:06:24,907 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+30 Apr 2025 22:06:24,908 INFO  client.Main 49 start - Using server IP localhost
+30 Apr 2025 22:06:24,909 INFO  client.Main 50 start - Using server port 55556
+30 Apr 2025 22:06:25,356 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+30 Apr 2025 22:06:25,357 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+30 Apr 2025 22:06:33,963 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:08:35,101 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:08:36,096 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:08:58,428 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+30 Apr 2025 22:08:59,434 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3

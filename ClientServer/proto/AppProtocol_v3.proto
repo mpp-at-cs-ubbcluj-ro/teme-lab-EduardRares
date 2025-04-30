@@ -1,0 +1,59 @@
+syntax="proto3";
+package app.protocol;
+
+option java_package = "networking.protobuffprotocol";
+option java_outer_classname = "AppProtobufs";
+
+message Employee {
+  string username = 1;
+  string password = 2;
+  uint32 id = 3;
+}
+
+message Ticket {
+  repeated string names = 1;
+  uint32 noOfTickets = 2;
+  Flight flight = 3;
+  uint32 id = 4;
+}
+
+message Flight {
+  string destination = 1;
+  string airport = 2;
+  uint32 numberOfAvailableSeats = 3;
+  string id = 4;
+  DateTime departureTime = 5;
+}
+
+message AppRequest {
+    enum Type { Unknown = 0; LOGIN = 1; LOGOUT = 2; ADD_EMPLOYEE = 3; UPDATE_FLIGHT = 4; GET_BY_DEST_DEPARTURE = 5; GET_ALL_FLIGHTS = 6; ADD_TICKET = 7; }
+  // Identifies which request is filled in.
+  Type type = 1;
+
+  // One of the following will be filled in, depending on the type.
+  Employee user = 2;
+  Flight flight = 3;
+  string destination = 4;
+  DateTime departure = 5;
+  repeated Flight flights = 6;
+  Ticket ticket = 7;
+}
+
+message AppResponse {
+  enum Type {Unknown = 0; OK = 1; ERROR = 2; FLIGHT_UPDATED = 3; FLIGHT_FILTERED = 4; GET_ALL_FLIGHTS = 5; LOGIN = 6;}
+  Type type = 1;
+  string error = 2;
+  Flight flight = 3;
+  repeated Flight flights = 4;
+  Employee user = 5;
+}
+
+message DateTime {
+  int32 year = 1;
+  int32 month = 2;
+  int32 day = 3;
+  int32 hours = 4;
+  int32 minutes = 5;
+  int32 seconds = 6;
+  int32 nanos = 7;
+}

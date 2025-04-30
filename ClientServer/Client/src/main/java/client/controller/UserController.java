@@ -144,10 +144,8 @@ public class UserController implements Initializable, IObserver {
     }
 
     @Override
-    public void update() throws CustomException {
-        Platform.runLater(()-> {
-            handleFlights();
-        });
+    public void update(List<Flight> flights) throws CustomException {
+        Platform.runLater(this::handleFlights);
     }
 
     public void setUser(Employee user) {

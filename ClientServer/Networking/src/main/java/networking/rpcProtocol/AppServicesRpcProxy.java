@@ -104,7 +104,7 @@ public class AppServicesRpcProxy implements IService {
             List<Flight> flight= (List<Flight>) response.data();
             logger.debug("Flights in system "+flight);
             try {
-                client.update();
+                client.update(flight);
             } catch (CustomException e) {
                 logger.error(e);
                 logger.error(e.getStackTrace());

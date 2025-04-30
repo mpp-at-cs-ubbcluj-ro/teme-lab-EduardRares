@@ -6,5 +6,6 @@ import java.io.IOException;
 import java.util.List;
 
 public interface IObserver {
-    public void update() throws CustomException;
+    public void update(List<Flight> flights) throws CustomException;
+
 }

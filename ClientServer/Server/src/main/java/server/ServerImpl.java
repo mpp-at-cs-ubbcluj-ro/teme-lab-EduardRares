@@ -34,19 +34,18 @@ public class ServerImpl implements IService {
     private void notifyClients() throws CustomException {
         System.out.println("Notify");
         ExecutorService executor= Executors.newFixedThreadPool(defaultNoThreads);
-        for(Integer userId: loggedClients.keySet()){
+            for(Integer userId: loggedClients.keySet()){
             IObserver client=loggedClients.get(userId);
             if (client!=null)
                 executor.execute(() -> {
                     try {
                         System.out.println("Notifying [" + userId+ "]");
-                        client.update();
+                        client.update(flightRepo.findAll());
                     } catch (CustomException e) {
                         System.err.println("Error notifying " + e);
                     }
                 });
         }
-
         executor.shutdown();
     }
 
@@ -80,10 +79,7 @@ public class ServerImpl implements IService {
     @Override
     public synchronized void updateFlight(Flight flight) throws CustomException {
         flightRepo.update(flight);
-        for(Integer userId: loggedClients.keySet()){
-            IObserver client=loggedClients.get(userId);
-            notifyClients();
-        }
+        notifyClients();
     }
 
     @Override

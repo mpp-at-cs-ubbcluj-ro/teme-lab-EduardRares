@@ -17,6 +17,10 @@ public class Flight implements Entity<String>, Comparable<Flight>, Serializable 
         this.numberOfAvailableSeats = numberOfSeats;
     }
 
+    public Flight() {
+
+    }
+
     public String getDestination() {
         return destination;
     }

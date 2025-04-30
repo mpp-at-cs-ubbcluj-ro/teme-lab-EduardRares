@@ -56,7 +56,7 @@ public class LoginController {
         if (employee.isPresent()) {
             FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("/UserInterface.fxml"));
             Stage stage=new Stage();
-            stage.setTitle("Chat Window for " +employee.get().getId());
+            stage.setTitle("Chat Window for " +employee.get().getUsername());
             stage.setScene(new Scene(mainChatParent));
             stage.setOnCloseRequest(new EventHandler<WindowEvent>() {
                 @Override

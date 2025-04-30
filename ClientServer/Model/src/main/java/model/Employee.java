@@ -7,7 +7,7 @@ public class Employee implements Entity<Integer>, Comparable<Employee>, Serializ
     private String username;
     private String password;
     private String email;
-    private Integer id;
+    private Integer id = -1;
 
     public Employee(String username, String password, String email) {
         this.username = username;
@@ -18,6 +18,10 @@ public class Employee implements Entity<Integer>, Comparable<Employee>, Serializ
     public Employee(String username, String password) {
         this.username = username;
         this.password = password;
+    }
+
+    public Employee() {
+
     }
 
     public String getUsername() {
