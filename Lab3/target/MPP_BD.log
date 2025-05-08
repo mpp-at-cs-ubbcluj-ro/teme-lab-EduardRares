@@ -1,0 +1,231 @@
+11 Mar 2025 16:58:43,543 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresLab3srcmainesourcesDBSQLITE3} 
+11 Mar 2025 16:58:43,566 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 16:58:43,567 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 16:58:43,568 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 16:58:43,568 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresLab3srcmainesourcesDBSQLITE3
+11 Mar 2025 16:58:43,569 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 16:58:43,570 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 16:58:43,603 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresLab3srcmainesourcesDBSQLITE3': The filename, directory name, or volume label syntax is incorrect
+11 Mar 2025 16:58:43,612 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:05:40,969 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:05:40,988 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:05:40,989 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:05:40,990 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:05:40,990 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:05:40,990 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:05:40,990 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:05:40,992 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:05:40,993 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:05:48,418 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:05:48,438 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:05:48,439 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:05:48,439 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:05:48,439 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:05:48,440 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:05:48,440 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:05:48,442 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:05:48,442 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:06:16,944 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:06:16,959 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:06:16,960 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:06:16,960 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:06:16,961 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:06:16,961 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:06:16,961 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:06:16,963 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:06:16,964 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:06:25,276 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:06:25,290 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:06:25,291 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:06:25,291 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:06:25,291 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:06:25,292 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:06:25,292 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:06:25,293 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:06:25,294 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:07:51,767 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:07:51,782 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:07:51,783 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:07:51,783 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:07:51,784 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:07:51,784 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:07:51,784 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:07:51,787 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:07:51,788 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:08:20,282 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:08:20,303 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:08:20,304 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:08:20,304 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:08:20,304 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:08:20,305 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:08:20,305 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:08:20,307 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:08:20,307 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:08:44,844 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:08:44,860 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:08:44,861 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:08:44,861 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:08:44,861 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:08:44,862 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:08:44,862 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:08:44,864 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:08:44,865 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:09:17,534 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:09:17,554 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:09:17,555 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:09:17,556 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:09:17,556 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:09:17,556 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:09:17,556 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:09:17,558 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:09:17,559 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:12:25,361 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:12:25,380 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:12:25,380 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:12:25,381 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:12:25,381 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:12:25,381 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:12:25,382 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:12:25,384 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:12:25,385 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:13:24,024 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:13:24,039 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:13:24,040 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:13:24,040 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:13:24,040 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:13:24,041 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:13:24,041 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:13:24,043 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:13:24,043 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:34:21,187 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:34:21,223 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:34:21,224 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:34:21,225 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:34:21,226 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:34:21,226 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:34:21,227 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:34:21,230 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:34:21,233 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:34:36,538 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:34:36,572 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:34:36,574 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:34:36,575 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:34:36,576 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:34:36,576 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:34:36,577 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:34:36,583 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:34:36,589 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:51:20,160 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {} 
+11 Mar 2025 17:51:20,179 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:51:20,180 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:51:20,180 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:51:20,181 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... null
+11 Mar 2025 17:51:20,181 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:51:20,181 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:51:20,184 ERROR ro.mpp2025.JdbcUtils 41 getNewConnection - java.sql.SQLException: The url cannot be null
+11 Mar 2025 17:51:20,185 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit
+11 Mar 2025 17:53:07,522 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3} 
+11 Mar 2025 17:53:07,576 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+11 Mar 2025 17:53:07,579 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:53:07,580 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+11 Mar 2025 17:53:07,581 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3
+11 Mar 2025 17:53:07,582 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+11 Mar 2025 17:53:07,585 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+11 Mar 2025 17:53:08,625 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+11 Mar 2025 17:53:08,644 TRACE ro.mpp2025.CarsDBRepository 85 add - Saved 1 instances
+11 Mar 2025 17:53:08,646 TRACE ro.mpp2025.CarsDBRepository 94 update - Enter updating task Id=0 Tesla Model S 2020 
+11 Mar 2025 17:53:08,648 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:53:08,649 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+11 Mar 2025 17:53:08,651 TRACE ro.mpp2025.CarsDBRepository 102 update - Updated 1 instances
+11 Mar 2025 17:53:08,652 TRACE ro.mpp2025.CarsDBRepository 111 findAll - Enter
+11 Mar 2025 17:53:08,653 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:53:08,655 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+11 Mar 2025 17:53:08,658 TRACE ro.mpp2025.CarsDBRepository 130 findAll - Exit with([Id=1 Dacia Duster 2024, Id=2 Skoda Octavia 2009, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019])
+11 Mar 2025 17:53:08,661 TRACE ro.mpp2025.CarsDBRepository 25 findByManufacturer - Enter
+11 Mar 2025 17:53:08,662 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+11 Mar 2025 17:53:08,662 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+11 Mar 2025 17:53:08,665 TRACE ro.mpp2025.CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019])
+18 Mar 2025 16:15:05,138 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3} 
+18 Mar 2025 16:15:05,170 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+18 Mar 2025 16:15:05,170 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:15:05,170 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:15:05,170 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3
+18 Mar 2025 16:15:05,170 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:15:05,170 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:15:05,505 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 16:15:05,505 TRACE ro.mpp2025.CarsDBRepository 85 add - Saved 1 instances
+18 Mar 2025 16:15:05,505 TRACE ro.mpp2025.CarsDBRepository 94 update - Enter updating task Id=0 Tesla Model S 2020 
+18 Mar 2025 16:15:05,505 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.CarsDBRepository 102 update - Updated 1 instances
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.CarsDBRepository 111 findAll - Enter
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.CarsDBRepository 130 findAll - Exit with([Id=1 Dacia Duster 2024, Id=2 Skoda Octavia 2009, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019])
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.CarsDBRepository 25 findByManufacturer - Enter
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 16:15:05,520 TRACE ro.mpp2025.CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019])
+18 Mar 2025 17:04:38,354 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3} 
+18 Mar 2025 17:04:38,378 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+18 Mar 2025 17:04:38,378 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:38,378 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 17:04:38,380 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3
+18 Mar 2025 17:04:38,380 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 17:04:38,380 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 85 add - Saved 1 instances
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 94 update - Enter updating task Id=0 Tesla Model S 2020 
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 102 update - Updated 1 instances
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 111 findAll - Enter
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 130 findAll - Exit with([Id=1 Dacia Duster 2024, Id=2 Skoda Octavia 2009, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019])
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.CarsDBRepository 25 findByManufacturer - Enter
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:38,718 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:38,734 TRACE ro.mpp2025.CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019])
+18 Mar 2025 17:04:43,179 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3} 
+18 Mar 2025 17:04:43,195 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+18 Mar 2025 17:04:43,195 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:43,195 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 17:04:43,195 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3
+18 Mar 2025 17:04:43,195 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 17:04:43,195 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 17:04:43,513 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 85 add - Saved 1 instances
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 94 update - Enter updating task Id=0 Tesla Model S 2020 
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 102 update - Updated 1 instances
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 111 findAll - Enter
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 130 findAll - Exit with([Id=1 Dacia Duster 2024, Id=2 Skoda Octavia 2009, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019, Id=15 Tesla Model S 2019])
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 25 findByManufacturer - Enter
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:04:43,529 TRACE ro.mpp2025.CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2020, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019, Id=15 Tesla Model S 2019])
+18 Mar 2025 17:05:19,499 INFO  ro.mpp2025.CarsDBRepository 19 <init> - Initializing CarsDBRepository with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3} 
+18 Mar 2025 17:05:19,515 TRACE ro.mpp2025.CarsDBRepository 78 add - Enter saving task Id=0 Tesla Model S 2019 
+18 Mar 2025 17:05:19,515 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:05:19,515 TRACE ro.mpp2025.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 17:05:19,515 INFO  ro.mpp2025.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//Lab3//src//main//resources//DBSQLITE3
+18 Mar 2025 17:05:19,515 INFO  ro.mpp2025.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 17:05:19,515 INFO  ro.mpp2025.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 17:05:19,847 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.CarsDBRepository 85 add - Saved 1 instances
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.CarsDBRepository 94 update - Enter updating task Id=0 Tesla Model S 2004 
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.CarsDBRepository 102 update - Updated 1 instances
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.CarsDBRepository 111 findAll - Enter
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:05:19,862 TRACE ro.mpp2025.CarsDBRepository 130 findAll - Exit with([Id=1 Dacia Duster 2024, Id=2 Skoda Octavia 2009, Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2004, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019, Id=15 Tesla Model S 2019, Id=16 Tesla Model S 2019])
+18 Mar 2025 17:05:19,878 TRACE ro.mpp2025.CarsDBRepository 25 findByManufacturer - Enter
+18 Mar 2025 17:05:19,878 TRACE ro.mpp2025.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:05:19,878 TRACE ro.mpp2025.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@169e6180)
+18 Mar 2025 17:05:19,878 TRACE ro.mpp2025.CarsDBRepository 45 findByManufacturer - Exit with([Id=3 Tesla Model S 2019, Id=4 Tesla Model S 2004, Id=5 Tesla Model S 2019, Id=6 Tesla Model S 2019, Id=7 Tesla Model S 2019, Id=8 Tesla Model S 2019, Id=9 Tesla Model S 2019, Id=10 Tesla Model S 2019, Id=11 Tesla Model S 2019, Id=12 Tesla Model S 2019, Id=13 Tesla Model S 2019, Id=14 Tesla Model S 2019, Id=15 Tesla Model S 2019, Id=16 Tesla Model S 2019])
