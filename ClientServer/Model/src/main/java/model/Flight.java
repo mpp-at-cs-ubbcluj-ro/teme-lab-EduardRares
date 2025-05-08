@@ -1,24 +1,54 @@
 package model;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
+import java.time.*;
 
-public class Flight implements Entity<String>, Comparable<Flight>, Serializable {
+import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import org.hibernate.annotations.GenericGenerator;
+
+import static java.time.ZoneOffset.UTC;
+
+@Entity
+@Table(name = "flight")
+public class Flight implements model.Entity<String>, Comparable<Flight>, Serializable {
+    @Column(name = "destination")
     private String destination;
-    private LocalDateTime departureTime;
+    @Column(name = "departureDate")
+    private long departureDateMillis;
+
+    @Column(name = "departureTime")
+    private LocalTime departureTime;
+    @Column(name = "airport")
     private String airport;
+    @Column(name = "numberOfAvailableSeats")
     private int numberOfAvailableSeats;
+    @Id
+    @Column(name = "id")
     private String id;
 
     public Flight(String destination, LocalDateTime departureTime, String airport, int numberOfSeats) {
         this.destination = destination;
+        this.departureDateMillis = departureTime.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli();
+        this.departureTime = departureTime.toLocalTime();
+        this.airport = airport;
+        this.numberOfAvailableSeats = numberOfSeats;
+    }
+
+    public Flight(String destination, long departureDateMillis, LocalTime departureTime, String airport, int numberOfSeats) {
+        this.destination = destination;
+        this.departureDateMillis = departureDateMillis;
         this.departureTime = departureTime;
         this.airport = airport;
         this.numberOfAvailableSeats = numberOfSeats;
     }
 
-    public Flight() {
+    public Flight() {}
 
+    public LocalDate getDepartureDate() {
+        return Instant.ofEpochMilli(departureDateMillis)
+                .atZone(UTC)
+                .toLocalDate();
     }
 
     public String getDestination() {
@@ -29,12 +59,19 @@ public class Flight implements Entity<String>, Comparable<Flight>, Serializable 
         this.destination = destination;
     }
 
-    public LocalDateTime getDepartureTime() {
+    public LocalTime getDepartureTimeValue() {
         return departureTime;
     }
 
+    public LocalDateTime getDepartureTime() {
+        return Instant.ofEpochMilli(departureDateMillis)
+                .atZone(ZoneId.of("UTC"))
+                .toLocalDate().atTime(departureTime);
+    }
+
     public void setDepartureTime(LocalDateTime departureTime) {
-        this.departureTime = departureTime;
+        this.departureDateMillis = departureTime.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli();
+        this.departureTime = departureTime.toLocalTime();
     }
 
     public String getAirport() {
@@ -67,4 +104,5 @@ public class Flight implements Entity<String>, Comparable<Flight>, Serializable 
     public void setId(String s) {
         id = s;
     }
+
 }

@@ -27,8 +27,8 @@ public class StartProtobuffServer {
             System.err.println("Cannot find server.properties "+e);
             return;
         }
-        EmployeeRepoInterface employeeRepo = new EmployeeRepo(serverProps);
-        FlightRepositoryInterface flightRepo = new FlightRepo(serverProps);
+        EmployeeRepoInterface employeeRepo = new EmployeeHibernateRepository();
+        FlightRepositoryInterface flightRepo = new FlightHibernateRepository();
         TicketRepoInterface ticketRepo = new TicketRepo(serverProps);
         IService appServerImpl = new ServerImpl(employeeRepo, ticketRepo, flightRepo);
 

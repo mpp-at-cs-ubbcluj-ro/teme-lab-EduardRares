@@ -3,10 +3,22 @@ package model;
 import java.io.Serializable;
 import java.util.Objects;
 
-public class Employee implements Entity<Integer>, Comparable<Employee>, Serializable {
+import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import org.hibernate.annotations.GenericGenerator;
+
+@Entity
+@Table( name = "employee" )
+public class Employee implements model.Entity<Integer>, Comparable<Employee>, Serializable {
+    @Column( name = "username")
     private String username;
+    @Column(name = "password")
     private String password;
+    @Column(name = "email")
     private String email;
+    @Id
+    @Column(name = "id")
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id = -1;
 
     public Employee(String username, String password, String email) {
@@ -20,9 +32,7 @@ public class Employee implements Entity<Integer>, Comparable<Employee>, Serializ
         this.password = password;
     }
 
-    public Employee() {
-
-    }
+    public Employee() {}
 
     public String getUsername() {
         return username;

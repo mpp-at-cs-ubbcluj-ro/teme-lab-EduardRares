@@ -638,3 +638,317 @@
 30 Apr 2025 22:08:36,096 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
 30 Apr 2025 22:08:58,428 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
 30 Apr 2025 22:08:59,434 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+01 May 2025 18:30:35,291 DEBUG client.Main 28 start - In start
+01 May 2025 18:30:35,302 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:30:35,303 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:30:35,304 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:30:35,920 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:30:35,921 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:33:18,935 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:33:31,556 DEBUG client.Main 28 start - In start
+01 May 2025 18:33:31,559 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:33:31,559 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:33:31,560 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:33:32,043 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:33:32,043 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:33:39,797 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:36:48,566 DEBUG client.Main 28 start - In start
+01 May 2025 18:36:48,570 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:36:48,571 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:36:48,573 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:36:49,151 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:36:49,152 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:36:57,150 DEBUG client.Main 28 start - In start
+01 May 2025 18:36:57,154 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:36:57,155 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:36:57,155 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:36:57,645 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:36:57,646 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:37:01,818 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:37:05,937 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:38:52,066 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: Error sending object java.net.SocketException: Connection reset by peer
+01 May 2025 18:38:52,067 DEBUG client.controller.LoginController$1 65 handle - Closing application
+01 May 2025 18:39:26,812 DEBUG client.Main 28 start - In start
+01 May 2025 18:39:26,817 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:39:26,817 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:39:26,818 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:39:27,402 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:39:27,402 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:39:35,343 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:41:18,787 DEBUG client.Main 28 start - In start
+01 May 2025 18:41:18,791 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:41:18,792 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:41:18,792 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:41:19,477 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:41:19,478 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:41:20,840 DEBUG client.Main 28 start - In start
+01 May 2025 18:41:20,844 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+01 May 2025 18:41:20,845 INFO  client.Main 49 start - Using server IP localhost
+01 May 2025 18:41:20,846 INFO  client.Main 50 start - Using server port 55556
+01 May 2025 18:41:21,400 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+01 May 2025 18:41:21,400 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+01 May 2025 18:41:40,313 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:41:44,955 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:42:01,599 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:42:02,600 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:42:21,280 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+01 May 2025 18:42:22,283 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:14:46,985 DEBUG client.Main 28 start - In start
+06 May 2025 17:14:47,000 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:14:47,000 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:14:47,001 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:14:47,961 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:14:47,961 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:14:56,988 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+06 May 2025 17:16:35,663 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+06 May 2025 17:31:26,616 DEBUG client.Main 28 start - In start
+06 May 2025 17:31:26,633 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:31:26,634 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:31:26,635 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:31:29,097 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:31:29,098 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:31:40,272 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:45:38,520 DEBUG client.Main 28 start - In start
+06 May 2025 17:45:38,546 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:45:38,550 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:45:38,555 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:45:42,297 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:45:42,299 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:45:56,289 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:46:22,885 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:46:48,346 DEBUG client.Main 28 start - In start
+06 May 2025 17:46:48,361 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:46:48,363 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:46:48,367 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:46:52,828 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:46:52,830 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:48:12,144 DEBUG client.Main 28 start - In start
+06 May 2025 17:48:12,163 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:48:12,165 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:48:12,168 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:48:16,586 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:48:16,588 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:48:27,524 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:48:55,240 DEBUG client.Main 28 start - In start
+06 May 2025 17:48:55,261 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:48:55,263 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:48:55,266 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:48:59,487 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:48:59,489 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:49:08,859 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:49:58,958 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:52:08,887 DEBUG client.Main 28 start - In start
+06 May 2025 17:52:08,911 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:52:08,913 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:52:08,916 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:52:11,731 DEBUG client.Main 28 start - In start
+06 May 2025 17:52:11,747 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+06 May 2025 17:52:11,750 INFO  client.Main 49 start - Using server IP localhost
+06 May 2025 17:52:11,753 INFO  client.Main 50 start - Using server port 55556
+06 May 2025 17:52:12,446 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:52:12,450 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:52:15,817 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+06 May 2025 17:52:15,819 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+06 May 2025 17:52:23,906 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:52:31,521 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:08,879 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:09,874 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:30,885 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:31,892 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:47,553 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:48,551 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:57,430 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+06 May 2025 17:53:58,438 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 1
+08 May 2025 10:35:52,018 DEBUG client.Main 28 start - In start
+08 May 2025 10:35:52,029 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:35:52,030 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:35:52,030 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:35:52,616 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:35:52,616 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:36:49,356 DEBUG client.Main 28 start - In start
+08 May 2025 10:36:49,360 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:36:49,360 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:36:49,361 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:36:49,845 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:36:49,846 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:41:17,476 DEBUG client.Main 28 start - In start
+08 May 2025 10:41:17,480 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:41:17,480 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:41:17,481 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:41:18,087 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:41:18,088 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:42:39,615 DEBUG client.Main 28 start - In start
+08 May 2025 10:42:39,619 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:42:39,619 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:42:39,620 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:42:40,230 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:42:40,231 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:43:03,270 DEBUG client.Main 28 start - In start
+08 May 2025 10:43:03,274 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:43:03,275 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:43:03,276 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:43:03,827 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:43:03,827 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:44:13,532 DEBUG client.Main 28 start - In start
+08 May 2025 10:44:13,536 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:44:13,537 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:44:13,538 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:44:14,093 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:44:14,094 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:44:42,356 DEBUG client.Main 28 start - In start
+08 May 2025 10:44:42,360 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:44:42,360 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:44:42,361 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:44:42,889 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:44:42,890 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:47:12,272 DEBUG client.Main 28 start - In start
+08 May 2025 10:47:12,275 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:47:12,276 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:47:12,276 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:47:12,781 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:47:12,781 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:48:22,519 DEBUG client.Main 28 start - In start
+08 May 2025 10:48:22,523 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:48:22,524 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:48:22,524 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:48:23,048 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:48:23,048 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 10:48:32,132 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 10:59:51,161 DEBUG client.Main 28 start - In start
+08 May 2025 10:59:51,166 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 10:59:51,166 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 10:59:51,167 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 10:59:51,655 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 10:59:51,655 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:00:10,820 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:00:14,268 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:00:27,954 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:04:26,656 DEBUG client.Main 28 start - In start
+08 May 2025 11:04:26,659 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:04:26,660 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:04:26,661 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:04:27,175 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:04:27,176 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:04:38,719 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:07:38,387 DEBUG client.Main 28 start - In start
+08 May 2025 11:07:38,392 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:07:38,392 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:07:38,393 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:07:38,973 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:07:38,974 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:07:49,041 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:09:19,854 DEBUG client.Main 28 start - In start
+08 May 2025 11:09:19,860 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:09:19,861 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:09:19,862 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:09:20,443 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:09:20,443 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:09:32,656 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:12:32,505 DEBUG client.Main 28 start - In start
+08 May 2025 11:12:32,509 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:12:32,510 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:12:32,511 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:12:33,157 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:12:33,157 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:12:45,991 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:13:53,728 DEBUG client.Main 28 start - In start
+08 May 2025 11:13:53,731 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:13:53,733 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:13:53,734 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:13:54,288 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:13:54,288 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:14:04,895 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:16:00,598 DEBUG client.Main 28 start - In start
+08 May 2025 11:16:00,614 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:16:00,615 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:16:00,616 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:16:01,453 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:16:01,454 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:16:12,465 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:17:42,419 DEBUG client.Main 28 start - In start
+08 May 2025 11:17:42,424 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:17:42,425 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:17:42,426 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:17:43,409 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:17:43,410 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:20:29,774 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+08 May 2025 11:20:29,774 DEBUG client.controller.LoginController$1 65 handle - Closing application
+08 May 2025 11:22:12,053 DEBUG client.Main 28 start - In start
+08 May 2025 11:22:12,058 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:22:12,058 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:22:12,059 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:22:12,837 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:22:12,837 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:42:46,223 DEBUG client.Main 28 start - In start
+08 May 2025 11:42:46,227 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:42:46,228 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:42:46,229 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:42:47,001 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:42:47,001 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:43:00,192 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 11:53:09,992 DEBUG client.Main 28 start - In start
+08 May 2025 11:53:09,996 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 11:53:09,997 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 11:53:09,998 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 11:53:10,625 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 11:53:10,626 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 11:53:20,984 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 12:06:38,303 DEBUG client.Main 28 start - In start
+08 May 2025 12:06:38,312 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 12:06:38,313 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 12:06:38,313 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 12:06:38,857 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 12:06:38,858 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 12:08:34,191 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 12:13:49,127 DEBUG client.Main 28 start - In start
+08 May 2025 12:13:49,130 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 12:13:49,131 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 12:13:49,132 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 12:13:49,663 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 12:13:49,664 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 12:13:59,951 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 14:23:30,608 DEBUG client.Main 28 start - In start
+08 May 2025 14:23:30,618 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 14:23:30,619 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 14:23:30,619 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 14:23:31,181 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 14:23:31,181 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 14:50:13,965 DEBUG client.Main 28 start - In start
+08 May 2025 14:50:13,968 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 14:50:13,969 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 14:50:13,970 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 14:50:14,516 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 14:50:14,516 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 14:50:27,310 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 14:54:47,691 DEBUG client.Main 28 start - In start
+08 May 2025 14:54:47,695 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 14:54:47,695 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 14:54:47,696 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 14:54:48,277 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 14:54:48,277 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 14:56:03,639 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 14:59:12,565 DEBUG client.Main 28 start - In start
+08 May 2025 14:59:12,569 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 14:59:12,569 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 14:59:12,570 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 14:59:13,077 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 14:59:13,078 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 14:59:24,936 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 15:11:12,122 DEBUG client.Main 28 start - In start
+08 May 2025 15:11:12,126 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 15:11:12,126 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 15:11:12,127 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 15:11:12,661 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 15:11:12,662 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 15:11:22,724 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 15:11:41,049 DEBUG client.Main 28 start - In start
+08 May 2025 15:11:41,052 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+08 May 2025 15:11:41,053 INFO  client.Main 49 start - Using server IP localhost
+08 May 2025 15:11:41,053 INFO  client.Main 50 start - Using server port 55556
+08 May 2025 15:11:41,589 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+08 May 2025 15:11:41,590 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+08 May 2025 15:11:49,331 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 15:12:03,431 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 15:12:04,430 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+08 May 2025 15:12:07,872 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+08 May 2025 15:12:12,728 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
