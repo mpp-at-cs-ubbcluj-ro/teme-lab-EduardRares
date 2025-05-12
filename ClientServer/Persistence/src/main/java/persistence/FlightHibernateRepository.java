@@ -1,9 +1,12 @@
 package persistence;
 
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.PersistenceContext;
 import model.Employee;
 import model.Flight;
 import org.hibernate.Session;
-
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.time.LocalDate;
@@ -16,7 +19,12 @@ import java.util.Optional;
 
 import static java.time.ZoneOffset.UTC;
 
+@Component
+@Repository
 public class FlightHibernateRepository implements FlightRepositoryInterface{
+
+    @PersistenceContext
+    private EntityManager em;
     @Override
     public List<Flight> findbyDestDeparture(String destination, LocalDateTime departureTime) {
         long targetMillis = departureTime.atZone(UTC).toInstant().toEpochMilli();
@@ -55,6 +63,7 @@ public class FlightHibernateRepository implements FlightRepositoryInterface{
 
     @Override
     public Optional<Flight> delete(String s) {
+        Optional<Flight> flightDeleted = findOne(s);
         HibernateUtils.getSessionFactory().inTransaction(session -> {
             Flight flight=session.createQuery("from Flight where id=?1",Flight.class).
                     setParameter(1,s).uniqueResult();
@@ -64,7 +73,7 @@ public class FlightHibernateRepository implements FlightRepositoryInterface{
                 session.flush();
             }
         });
-        return Optional.empty();
+        return flightDeleted;
     }
 
     @Override

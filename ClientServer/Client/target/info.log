@@ -952,3 +952,58 @@
 08 May 2025 15:12:04,430 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
 08 May 2025 15:12:07,872 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
 08 May 2025 15:12:12,728 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+12 May 2025 12:32:41,645 DEBUG client.Main 28 start - In start
+12 May 2025 12:32:41,656 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 12:32:41,657 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 12:32:41,658 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 12:32:42,229 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 12:32:42,229 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 12:32:53,023 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 12:32:55,260 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+12 May 2025 12:32:55,260 DEBUG client.controller.LoginController$1 65 handle - Closing application
+12 May 2025 13:04:21,058 DEBUG client.Main 28 start - In start
+12 May 2025 13:04:21,062 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:04:21,062 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:04:21,062 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:04:21,624 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:04:21,624 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:04:57,566 DEBUG client.Main 28 start - In start
+12 May 2025 13:04:57,570 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:04:57,571 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:04:57,572 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:04:58,098 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:04:58,098 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:05:08,080 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:05:19,901 DEBUG client.Main 28 start - In start
+12 May 2025 13:05:19,905 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:05:19,906 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:05:19,907 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:05:20,339 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:05:20,339 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:05:28,255 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:05:59,215 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+12 May 2025 13:05:59,215 DEBUG client.controller.LoginController$1 65 handle - Closing application
+12 May 2025 13:10:17,324 DEBUG client.Main 28 start - In start
+12 May 2025 13:10:17,327 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:10:17,327 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:10:17,328 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:10:17,809 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:10:17,810 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:10:27,797 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:11:04,800 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:11:26,138 DEBUG client.Main 28 start - In start
+12 May 2025 13:11:26,142 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:11:26,143 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:11:26,144 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:11:26,800 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:11:26,801 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:32:58,318 DEBUG client.Main 28 start - In start
+12 May 2025 13:32:58,322 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+12 May 2025 13:32:58,323 INFO  client.Main 49 start - Using server IP localhost
+12 May 2025 13:32:58,323 INFO  client.Main 50 start - Using server port 55556
+12 May 2025 13:32:58,930 DEBUG client.controller.UserController 121 initialize - INIT : am in lista de zboruri 0
+12 May 2025 13:32:58,930 DEBUG client.controller.UserController 122 initialize - END INIT!!!!!!!!!
+12 May 2025 13:33:24,521 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:33:33,907 DEBUG client.controller.UserController 71 handleFlights - INIT : am in lista de zboruri 3
+12 May 2025 13:33:42,703 ERROR client.controller.UserController 115 logout - Logout error services.CustomException: User -1 is not logged in.
+12 May 2025 13:33:42,703 DEBUG client.controller.LoginController$1 65 handle - Closing application

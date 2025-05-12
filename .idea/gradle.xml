@@ -13,6 +13,9 @@
             <option value="$PROJECT_DIR$/ClientServer/Model" />
             <option value="$PROJECT_DIR$/ClientServer/Networking" />
             <option value="$PROJECT_DIR$/ClientServer/Persistence" />
+            <option value="$PROJECT_DIR$/ClientServer/REST-Server" />
+            <option value="$PROJECT_DIR$/ClientServer/REST-Service" />
+            <option value="$PROJECT_DIR$/ClientServer/REST_Services" />
             <option value="$PROJECT_DIR$/ClientServer/Server" />
             <option value="$PROJECT_DIR$/ClientServer/Services" />
           </set>

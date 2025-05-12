@@ -3,6 +3,7 @@ package persistence;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import model.Flight;
+import org.springframework.stereotype.Component;
 
 import java.sql.*;
 import java.time.LocalDate;

@@ -15,6 +15,11 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistence/ClientServer.Persistence.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REST-Server/ClientServer.REST-Server.iml" filepath="$PROJECT_DIR$/.idea/modules/REST-Server/ClientServer.REST-Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REST-Service/ClientServer.REST-Service.iml" filepath="$PROJECT_DIR$/.idea/modules/REST-Service/ClientServer.REST-Service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.iml" filepath="$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.main.iml" filepath="$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.test.iml" filepath="$PROJECT_DIR$/.idea/modules/REST_Services/ClientServer.REST_Services.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/ClientServer.Server.test.iml" />

@@ -7,3 +7,7 @@ include 'Server'
 include 'Networking'
 include 'Client'
 
+
+include 'REST-Server'
+include 'REST-Service'
+include 'REST_Services'

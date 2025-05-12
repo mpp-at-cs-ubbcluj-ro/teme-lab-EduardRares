@@ -3,6 +3,9 @@ import model.Employee;
 import model.Flight;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+
+import java.util.Properties;
+
 public class HibernateUtils {
 
     private static SessionFactory sessionFactory;
@@ -14,11 +17,20 @@ public class HibernateUtils {
     }
 
     private static  SessionFactory createNewSessionFactory(){
-        sessionFactory = new Configuration()
-                .addAnnotatedClass(Employee.class)
-                .addAnnotatedClass(Flight.class)
+        Properties props = new Properties();
+        try (var in = HibernateUtils.class
+                .getResourceAsStream("/META-INF/hibernate.properties")) {
+            props.load(in);
+        } catch (Exception e) {
+            throw new RuntimeException("Failed to load custom Hibernate properties", e);
+        }
+
+        // 2) bootstrap Hibernate with those
+        return new Configuration()
+                .addProperties(props)
+                .addAnnotatedClass(model.Employee.class)
+                .addAnnotatedClass(model.Flight.class)
                 .buildSessionFactory();
-        return sessionFactory;
     }
 
     public static  void closeSessionFactory(){
