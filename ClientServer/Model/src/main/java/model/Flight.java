@@ -7,8 +7,6 @@ import jakarta.persistence.*;
 import jakarta.persistence.Entity;
 import org.hibernate.annotations.GenericGenerator;
 
-import static java.time.ZoneOffset.UTC;
-
 @Entity
 @Table(name = "flight")
 public class Flight implements model.Entity<String>, Comparable<Flight>, Serializable {
@@ -27,14 +25,6 @@ public class Flight implements model.Entity<String>, Comparable<Flight>, Seriali
     @Column(name = "id")
     private String id;
 
-    public Flight(String destination, LocalDateTime departureTime, String airport, int numberOfSeats) {
-        this.destination = destination;
-        this.departureDateMillis = departureTime.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli();
-        this.departureTime = departureTime.toLocalTime();
-        this.airport = airport;
-        this.numberOfAvailableSeats = numberOfSeats;
-    }
-
     public Flight(String destination, long departureDateMillis, LocalTime departureTime, String airport, int numberOfSeats) {
         this.destination = destination;
         this.departureDateMillis = departureDateMillis;
@@ -44,12 +34,6 @@ public class Flight implements model.Entity<String>, Comparable<Flight>, Seriali
     }
 
     public Flight() {}
-
-    public LocalDate getDepartureDate() {
-        return Instant.ofEpochMilli(departureDateMillis)
-                .atZone(UTC)
-                .toLocalDate();
-    }
 
     public String getDestination() {
         return destination;
@@ -63,15 +47,20 @@ public class Flight implements model.Entity<String>, Comparable<Flight>, Seriali
         return departureTime;
     }
 
-    public LocalDateTime getDepartureTime() {
-        return Instant.ofEpochMilli(departureDateMillis)
-                .atZone(ZoneId.of("UTC"))
-                .toLocalDate().atTime(departureTime);
+    public LocalTime getDepartureTime() {
+        return departureTime;
     }
 
-    public void setDepartureTime(LocalDateTime departureTime) {
-        this.departureDateMillis = departureTime.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli();
-        this.departureTime = departureTime.toLocalTime();
+    public long getDepartureTimeMillis() {
+        return departureDateMillis;
+    }
+
+    public void setDepartureTimeMillis(long departureTimeMillis) {
+        this.departureDateMillis = departureTimeMillis;
+    }
+
+    public void setDepartureTime(LocalTime departureTime) {
+        this.departureTime = departureTime;
     }
 
     public String getAirport() {

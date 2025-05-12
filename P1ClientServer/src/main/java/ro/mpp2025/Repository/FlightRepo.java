@@ -31,7 +31,7 @@ public class FlightRepo implements FlightRepositoryInterface {
         List<Flight> flights = new ArrayList<>();
         try(PreparedStatement preStmt = conn.prepareStatement("select * from flight where destination = ? and departureDate = ?")) {
             preStmt.setString(1, destination);
-            preStmt.setLong(2, departureDate.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli());
+            preStmt.setLong(2, departureDate.toLocalDate().toEpochDay() * 24L * 60 * 60 * 1000);
             try(ResultSet rs = preStmt.executeQuery()) {
                 while(rs.next()) {
                     String id=rs.getString("id");

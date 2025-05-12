@@ -5,9 +5,7 @@ import model.Ticket;
 import model.Employee;
 import networking.dto.DestDepartureDTO;
 
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.LocalTime;
+import java.time.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,10 +27,11 @@ public class ProtoUtils {
     }
 
     public static AppProtobufs.AppRequest createAddTicketRequest(Ticket ticket){
+        LocalDate utcDate = LocalDate.ofEpochDay(Math.floorDiv(ticket.getFlight().getDepartureTimeMillis(), 86_400_000L));
         AppProtobufs.DateTime dateTimeDTO = AppProtobufs.DateTime.newBuilder()
-                .setYear(ticket.getFlight().getDepartureTime().getYear())
-                .setMonth(ticket.getFlight().getDepartureTime().getMonth().getValue())
-                .setDay(ticket.getFlight().getDepartureTime().getDayOfMonth())
+                .setYear(utcDate.getYear())
+                .setMonth(utcDate.getMonth().getValue())
+                .setDay(utcDate.getDayOfMonth())
                 .setHours(ticket.getFlight().getDepartureTime().getHour())
                 .setMinutes(ticket.getFlight().getDepartureTime().getMinute())
                 .build();
@@ -56,10 +55,11 @@ public class ProtoUtils {
     }
 
     public static AppProtobufs.AppRequest createUpdateFlightRequest(Flight flight){
+        LocalDate utcDate = LocalDate.ofEpochDay(Math.floorDiv(flight.getDepartureTimeMillis(), 86_400_000L));
         AppProtobufs.DateTime dateTimeDTO = AppProtobufs.DateTime.newBuilder()
-                .setYear(flight.getDepartureTime().getYear())
-                .setMonth(flight.getDepartureTime().getMonth().getValue())
-                .setDay(flight.getDepartureTime().getDayOfMonth())
+                .setYear(utcDate.getYear())
+                .setMonth(utcDate.getMonth().getValue())
+                .setDay(utcDate.getDayOfMonth())
                 .setHours(flight.getDepartureTime().getHour())
                 .setMinutes(flight.getDepartureTime().getMinute())
                 .build();
@@ -119,10 +119,11 @@ public class ProtoUtils {
     public static AppProtobufs.AppResponse createFlightFilteredResponse(List<Flight> flights){
         List<AppProtobufs.Flight> flightsDTO = new ArrayList<>();
         for(Flight flight:flights) {
+            LocalDate utcDate = LocalDate.ofEpochDay(Math.floorDiv(flight.getDepartureTimeMillis(), 86_400_000L));
             AppProtobufs.DateTime dateTimeDTO = AppProtobufs.DateTime.newBuilder()
-                    .setYear(flight.getDepartureTime().getYear())
-                    .setMonth(flight.getDepartureTime().getMonth().getValue())
-                    .setDay(flight.getDepartureTime().getDayOfMonth())
+                    .setYear(utcDate.getYear())
+                    .setMonth(utcDate.getMonth().getValue())
+                    .setDay(utcDate.getDayOfMonth())
                     .setHours(flight.getDepartureTime().getHour())
                     .setMinutes(flight.getDepartureTime().getMinute())
                     .build();
@@ -144,10 +145,11 @@ public class ProtoUtils {
     public static AppProtobufs.AppResponse createGetAllFlightsResponse(List<Flight> flights){
         List<AppProtobufs.Flight> flightsDTO = new ArrayList<>();
         for(Flight flight:flights){
+            LocalDate utcDate = LocalDate.ofEpochDay(Math.floorDiv(flight.getDepartureTimeMillis(), 86_400_000L));
             AppProtobufs.DateTime dateTimeDTO = AppProtobufs.DateTime.newBuilder()
-                    .setYear(flight.getDepartureTime().getYear())
-                    .setMonth(flight.getDepartureTime().getMonth().getValue())
-                    .setDay(flight.getDepartureTime().getDayOfMonth())
+                    .setYear(utcDate.getYear())
+                    .setMonth(utcDate.getMonth().getValue())
+                    .setDay(utcDate.getDayOfMonth())
                     .setHours(flight.getDepartureTime().getHour())
                     .setMinutes(flight.getDepartureTime().getMinute())
                     .build();
@@ -193,16 +195,20 @@ public class ProtoUtils {
         flight.setAirport(response.getFlight().getAirport());
         flight.setDestination(response.getFlight().getDestination());
         flight.setNumberOfAvailableSeats(response.getFlight().getNumberOfAvailableSeats());
-        LocalDateTime ldt = LocalDateTime.of(
+        LocalDate ld = LocalDate.of(
                 response.getFlight().getDepartureTime().getYear(),
                 response.getFlight().getDepartureTime().getMonth(),
-                response.getFlight().getDepartureTime().getDay(),
-                response.getFlight().getDepartureTime().getHours(),
+                response.getFlight().getDepartureTime().getDay()
+        );
+        long ldMili = ld.atStartOfDay(ZoneId.systemDefault())    // use your JVM’s local zone
+                .toInstant()
+                .toEpochMilli();
+        flight.setDepartureTimeMillis(ldMili);
+        LocalTime lt = LocalTime.of(response.getFlight().getDepartureTime().getHours(),
                 response.getFlight().getDepartureTime().getMinutes(),
                 response.getFlight().getDepartureTime().getSeconds(),
-                response.getFlight().getDepartureTime().getNanos()
-        );
-        flight.setDepartureTime(ldt);
+                response.getFlight().getDepartureTime().getNanos());
+        flight.setDepartureTime(lt);
         return flight;
     }
 
@@ -212,16 +218,20 @@ public class ProtoUtils {
         flight.setAirport(request.getFlight().getAirport());
         flight.setDestination(request.getFlight().getDestination());
         flight.setNumberOfAvailableSeats(request.getFlight().getNumberOfAvailableSeats());
-        LocalDateTime ldt = LocalDateTime.of(
+        LocalDate ld = LocalDate.of(
                 request.getFlight().getDepartureTime().getYear(),
                 request.getFlight().getDepartureTime().getMonth(),
-                request.getFlight().getDepartureTime().getDay(),
-                request.getFlight().getDepartureTime().getHours(),
+                request.getFlight().getDepartureTime().getDay()
+        );
+        long ldMili = ld.atStartOfDay(ZoneId.systemDefault())
+                .toInstant()
+                .toEpochMilli();
+        flight.setDepartureTimeMillis(ldMili);
+        LocalTime lt = LocalTime.of(request.getFlight().getDepartureTime().getHours(),
                 request.getFlight().getDepartureTime().getMinutes(),
                 request.getFlight().getDepartureTime().getSeconds(),
-                request.getFlight().getDepartureTime().getNanos()
-        );
-        flight.setDepartureTime(ldt);
+                request.getFlight().getDepartureTime().getNanos());
+        flight.setDepartureTime(lt);
         return flight;
     }
 
@@ -230,16 +240,20 @@ public class ProtoUtils {
         flight.setId(request.getTicket().getFlight().getId());
         flight.setAirport(request.getTicket().getFlight().getAirport());
         flight.setDestination(request.getTicket().getFlight().getDestination());
-        LocalDateTime ldt = LocalDateTime.of(
+        LocalDate ld = LocalDate.of(
                 request.getTicket().getFlight().getDepartureTime().getYear(),
                 request.getTicket().getFlight().getDepartureTime().getMonth(),
-                request.getTicket().getFlight().getDepartureTime().getDay(),
-                request.getTicket().getFlight().getDepartureTime().getHours(),
+                request.getTicket().getFlight().getDepartureTime().getDay()
+        );
+        long ldMili = ld.atStartOfDay(ZoneId.systemDefault())
+                .toInstant()
+                .toEpochMilli();
+        flight.setDepartureTimeMillis(ldMili);
+        LocalTime lt = LocalTime.of(request.getFlight().getDepartureTime().getHours(),
                 request.getTicket().getFlight().getDepartureTime().getMinutes(),
                 request.getTicket().getFlight().getDepartureTime().getSeconds(),
-                request.getTicket().getFlight().getDepartureTime().getNanos()
-        );
-        flight.setDepartureTime(ldt);
+                request.getTicket().getFlight().getDepartureTime().getNanos());
+        flight.setDepartureTime(lt);
         Ticket ticket=new Ticket();
         ticket.setId(request.getTicket().getId());
         ticket.setNoOfTickets(request.getTicket().getNoOfTickets());
@@ -256,16 +270,20 @@ public class ProtoUtils {
             flight.setId(request.getFlight().getId());
             flight.setAirport(request.getFlight().getAirport());
             flight.setDestination(request.getFlight().getDestination());
-            LocalDateTime ldt = LocalDateTime.of(
+            LocalDate ld = LocalDate.of(
                     request.getFlight().getDepartureTime().getYear(),
                     request.getFlight().getDepartureTime().getMonth(),
-                    request.getFlight().getDepartureTime().getDay(),
-                    request.getFlight().getDepartureTime().getHours(),
+                    request.getFlight().getDepartureTime().getDay()
+            );
+            long ldMili = ld.atStartOfDay(ZoneId.systemDefault())
+                    .toInstant()
+                    .toEpochMilli();
+            flight.setDepartureTimeMillis(ldMili);
+            LocalTime lt = LocalTime.of(request.getFlight().getDepartureTime().getHours(),
                     request.getFlight().getDepartureTime().getMinutes(),
                     request.getFlight().getDepartureTime().getSeconds(),
-                    request.getFlight().getDepartureTime().getNanos()
-            );
-            flight.setDepartureTime(ldt);
+                    request.getFlight().getDepartureTime().getNanos());
+            flight.setDepartureTime(lt);
             flights.add(flight);
         }
         return flights;
@@ -281,16 +299,18 @@ public class ProtoUtils {
             flight.setDestination(flightDTO.getDestination());
             flight.setNumberOfAvailableSeats(flightDTO.getNumberOfAvailableSeats());
             AppProtobufs.DateTime dtoDeparture = flightDTO.getDepartureTime();
-            LocalDateTime ldt = LocalDateTime.of(
+            LocalDate ld = LocalDate.of(
                     dtoDeparture.getYear(),
                     dtoDeparture.getMonth(),
-                    dtoDeparture.getDay(),
-                    dtoDeparture.getHours(),
+                    dtoDeparture.getDay()
+            );
+            long ldMili = ld.toEpochDay() * 24L * 60 * 60 * 1000;
+            flight.setDepartureTimeMillis(ldMili);
+            LocalTime lt = LocalTime.of(dtoDeparture.getHours(),
                     dtoDeparture.getMinutes(),
                     dtoDeparture.getSeconds(),
-                    dtoDeparture.getNanos()
-            );
-            flight.setDepartureTime(ldt);
+                    dtoDeparture.getNanos());
+            flight.setDepartureTime(lt);
             flights.add(flight);
         }
         return flights;

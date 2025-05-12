@@ -38,8 +38,8 @@ public class TicketRepo implements TicketRepoInterface {
                     String airport = rs.getString("airport");
                     int numberOfAvailableSeats=rs.getInt("numberOfAvailableSeats");
                     LocalTime departureTime= LocalTime.from(rs.getTimestamp("departureTime").toLocalDateTime());
-                    LocalDate departureDate= LocalDate.from(rs.getTimestamp("departureDate").toLocalDateTime());
-                    flight = new Flight(destination, LocalDateTime.of(departureDate, departureTime), airport, numberOfAvailableSeats);
+                    long departureDateMili = rs.getLong("departureDate");
+                    flight = new Flight(destination, departureDateMili, departureTime, airport, numberOfAvailableSeats);
                     flight.setId(id);
                     return flight;
                 }

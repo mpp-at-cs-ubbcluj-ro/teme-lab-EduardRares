@@ -30,7 +30,7 @@ public class FlightRepo implements FlightRepositoryInterface {
         List<Flight> flights = new ArrayList<>();
         try(PreparedStatement preStmt = conn.prepareStatement("select * from flight where destination = ? and departureDate = ?")) {
             preStmt.setString(1, destination);
-            preStmt.setLong(2, departureDate.atZone(ZoneId.of("UTC")).toInstant().toEpochMilli());
+            preStmt.setLong(2, departureDate.toLocalDate().toEpochDay() * 24L * 60 * 60 * 1000);
             try(ResultSet rs = preStmt.executeQuery()) {
                 while(rs.next()) {
                     String id=rs.getString("id");
@@ -38,8 +38,8 @@ public class FlightRepo implements FlightRepositoryInterface {
                     String airport = rs.getString("airport");
                     int numberOfAvailableSeats=rs.getInt("numberOfAvailableSeats");
                     LocalTime departureTime= LocalTime.from(rs.getTimestamp("departureTime").toLocalDateTime());
-                    LocalDate departureDate1= LocalDate.from(rs.getTimestamp("departureDate").toLocalDateTime());
-                    Flight flight = new Flight(destination1, LocalDateTime.of(departureDate1, departureTime), airport, numberOfAvailableSeats);
+                    long departureDateMili = rs.getLong("departureDate");
+                    Flight flight = new Flight(destination1, departureDateMili, departureTime, airport, numberOfAvailableSeats);
                     flight.setId(id);
                     flights.add(flight);
                 }
@@ -66,8 +66,8 @@ public class FlightRepo implements FlightRepositoryInterface {
                     String airport = rs.getString("airport");
                     int numberOfAvailableSeats=rs.getInt("numberOfAvailableSeats");
                     LocalTime departureTime= LocalTime.from(rs.getTimestamp("departureTime").toLocalDateTime());
-                    LocalDate departureDate= LocalDate.from(rs.getTimestamp("departureDate").toLocalDateTime());
-                    flight = new Flight(destination, LocalDateTime.of(departureDate, departureTime), airport, numberOfAvailableSeats);
+                    long departureDateMili = rs.getLong("departureDate");
+                    flight = new Flight(destination, departureDateMili ,departureTime, airport, numberOfAvailableSeats);
                     flight.setId(id);
                     logger.traceExit(flight);
                     return Optional.of(flight);
@@ -94,9 +94,9 @@ public class FlightRepo implements FlightRepositoryInterface {
                     String airport = rs.getString("airport");
                     int numberOfAvailableSeats=rs.getInt("numberOfAvailableSeats");
                     LocalTime departureTime= LocalTime.from(rs.getTimestamp("departureTime").toLocalDateTime());
-                    LocalDate departureDate= LocalDate.from(rs.getTimestamp("departureDate").toLocalDateTime());
+                    long departureDateMili = rs.getLong("departureDate");
 
-                    Flight flight = new Flight(destination, LocalDateTime.of(departureDate, departureTime), airport, numberOfAvailableSeats);
+                    Flight flight = new Flight(destination, departureDateMili, departureTime, airport, numberOfAvailableSeats);
                     flight.setId(id);
                     flights.add(flight);
                 }
@@ -117,8 +117,8 @@ public class FlightRepo implements FlightRepositoryInterface {
             preStmt.setString(1, elem.getDestination());
             preStmt.setString(2, elem.getAirport());
             preStmt.setInt(3, elem.getNumberOfAvailableSeats());
-            preStmt.setDate(4, Date.valueOf(elem.getDepartureTime().toLocalDate()));
-            preStmt.setTime(5, Time.valueOf(elem.getDepartureTime().toLocalTime()));
+            preStmt.setLong(4, elem.getDepartureTimeMillis());
+            preStmt.setTime(5, Time.valueOf(elem.getDepartureTime()));
             int result=preStmt.executeUpdate();
             logger.trace("Saved {} instances", result);
             return Optional.of(elem);

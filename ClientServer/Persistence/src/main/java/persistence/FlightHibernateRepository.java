@@ -5,36 +5,34 @@ import jakarta.persistence.PersistenceContext;
 import model.Employee;
 import model.Flight;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Repository;
 import java.sql.ResultSet;
 import java.sql.Statement;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
+import java.time.LocalTime;
 import java.time.ZoneId;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
 
-import static java.time.ZoneOffset.UTC;
-
 @Component
 @Repository
 public class FlightHibernateRepository implements FlightRepositoryInterface{
 
-    @PersistenceContext
-    private EntityManager em;
     @Override
     public List<Flight> findbyDestDeparture(String destination, LocalDateTime departureTime) {
-        long targetMillis = departureTime.atZone(UTC).toInstant().toEpochMilli();
+        long dateMidnightMillis = departureTime.toLocalDate().toEpochDay() * 24L * 60 * 60 * 1000;
 
         try (Session session = HibernateUtils.getSessionFactory().openSession()) {
             return session.createNativeQuery(
                             "SELECT * FROM flight WHERE destination = ? AND departureDate = ?",
                             Flight.class)
                     .setParameter(1, destination)
-                    .setParameter(2, targetMillis)  // Compare as longs
+                    .setParameter(2, dateMidnightMillis)  // Compare as longs
                     .getResultList();
         }
     }
@@ -78,13 +76,18 @@ public class FlightHibernateRepository implements FlightRepositoryInterface{
 
     @Override
     public Optional<Flight> update(Flight entity) {
-        HibernateUtils.getSessionFactory().inTransaction(session -> {
-            if (!Objects.isNull(session.find(Flight.class, entity.getId()))) {
-                System.out.println("In update, am gasit zborul cu id-ul "+entity.getId());
-                session.merge(entity);
-                session.flush();
+        try (Session session = HibernateUtils.getSessionFactory().openSession()) {
+            Transaction tx = session.beginTransaction();
+
+            // load the persistent object
+            Flight managed = session.find(Flight.class, entity.getId());
+            if (managed != null) {
+                // only overwrite the fields you actually want to change
+                managed.setNumberOfAvailableSeats(entity.getNumberOfAvailableSeats());
             }
-        });
-        return Optional.of(entity);
+
+            tx.commit();
+            return Optional.ofNullable(managed);
+        }
     }
 }

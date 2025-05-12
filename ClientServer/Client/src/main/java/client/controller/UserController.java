@@ -21,8 +21,10 @@ import org.apache.logging.log4j.Logger;
 import services.CustomException;
 import services.IObserver;
 import services.IService;
+import java.time.Instant;
 
 import java.net.URL;
+import java.time.ZoneId;
 import java.util.List;
 import java.util.Optional;
 import java.util.ResourceBundle;
@@ -129,10 +131,10 @@ public class UserController implements Initializable, IObserver {
                 new SimpleStringProperty(cellData.getValue().getDestination())
         );
         tableColumnData.setCellValueFactory(cellData ->
-                new SimpleStringProperty(cellData.getValue().getDepartureTime().toLocalDate().toString())
+                new SimpleStringProperty(Instant.ofEpochMilli(cellData.getValue().getDepartureTimeMillis()).atZone(ZoneId.systemDefault()).toLocalDate().toString())
         );
         tableColumnOra.setCellValueFactory(cellData ->
-                new SimpleStringProperty(cellData.getValue().getDepartureTime().toLocalTime().toString())
+                new SimpleStringProperty(cellData.getValue().getDepartureTime().toString())
         );
         tableColumnAeroport.setCellValueFactory(cellData ->
                 new SimpleStringProperty(cellData.getValue().getAirport()));

@@ -28,6 +28,7 @@ public class StartProtobuffServer {
             return;
         }
         EmployeeRepoInterface employeeRepo = new EmployeeHibernateRepository();
+        //FlightRepositoryInterface flightRepo = new FlightRepo(serverProps);
         FlightRepositoryInterface flightRepo = new FlightHibernateRepository();
         TicketRepoInterface ticketRepo = new TicketRepo(serverProps);
         IService appServerImpl = new ServerImpl(employeeRepo, ticketRepo, flightRepo);
