@@ -15,6 +15,15 @@ dependencies {
     implementation project(':Model')
 }
 
+java {
+    toolchain {
+        // use Java 23 compiler internally, but emit Java 17 bytecode
+        languageVersion = JavaLanguageVersion.of(23)
+    }
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
 test {
     useJUnitPlatform()
 }

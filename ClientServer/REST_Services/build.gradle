@@ -16,6 +16,7 @@ dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter'
     implementation project(':Model')
     implementation project(':Persistence')
+    implementation project(':Services')
     // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-annotations
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-annotations', version: '2.13.1'
     // https://mvnrepository.com/artifact/org.springframework/spring-context

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestRestClient" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-05-12T18:45:43" hostname="EDUARD" time="0.727">
+  <properties/>
+  <testcase name="First Test" classname="TestRestClient" time="0.727"/>
+  <system-out><![CDATA[Sending a GET request to http://localhost:8080/flights and body []
+Got response code 200 OK
+Adding a new user model.Flight@3241713e
+Sending a POST request to http://localhost:8080/flights and body [{"destination":"Barcelona","departureTime":[10,0],"airport":"BarcAirport","numberOfAvailableSeats":200,"id":"BRC001","departureTimeValue":[10,0],"departureTimeMillis":200000}]
+Got response code 200 OK
+model.Flight@12db3386
+
+Printing all users ...
+Sending a GET request to http://localhost:8080/flights and body []
+Got response code 200 OK
+NYC001: New York
+LON002: London
+PAR003: Paris
+BRC001: Barcelona
+Sending a GET request to http://localhost:8080/flights/BRC001 and body []
+Got response code 200 OK
+Sending a DELETE request to http://localhost:8080/flights/BRC001 and body []
+Got response code 200 OK
+Sending a GET request to http://localhost:8080/flights and body []
+Got response code 200 OK
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
