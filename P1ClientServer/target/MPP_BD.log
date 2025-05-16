@@ -1,0 +1,698 @@
+18 Mar 2025 16:23:22,005 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:23:22,021 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:23:22,021 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:23:22,021 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:23:22,021 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:23:22,021 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:23:22,021 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:23:22,084 ERROR ro.mpp2025.Repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db': The filename, directory name, or volume label syntax is incorrect
+18 Mar 2025 16:23:22,084 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit
+18 Mar 2025 16:24:05,956 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:24:07,255 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:24:07,255 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:24:07,255 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:24:07,255 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:24:07,255 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:24:07,255 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:24:07,429 ERROR ro.mpp2025.Repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db': The filename, directory name, or volume label syntax is incorrect
+18 Mar 2025 16:24:07,445 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit
+18 Mar 2025 16:29:45,003 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:29:45,018 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:29:45,018 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:29:45,020 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:29:45,020 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:29:45,020 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:29:45,022 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:29:45,049 ERROR ro.mpp2025.Repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db': The filename, directory name, or volume label syntax is incorrect
+18 Mar 2025 16:29:45,049 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit
+18 Mar 2025 16:30:21,906 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:30:21,922 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:30:21,922 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:30:21,922 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:30:21,922 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:30:21,922 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:30:21,922 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:30:21,969 ERROR ro.mpp2025.Repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db': The filename, directory name, or volume label syntax is incorrect
+18 Mar 2025 16:30:21,969 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit
+18 Mar 2025 16:30:36,570 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:30:36,587 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:30:36,587 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:30:36,587 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:30:36,587 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:30:36,587 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:30:36,587 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:30:36,634 ERROR ro.mpp2025.Repository.JdbcUtils 41 getNewConnection - java.sql.SQLException: opening db: 'D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db': The filename, directory name, or volume label syntax is incorrect
+18 Mar 2025 16:30:36,634 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit
+18 Mar 2025 16:31:20,444 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db} 
+18 Mar 2025 16:31:20,460 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:31:20,460 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:31:20,460 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:31:20,460 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D:Faculta	eme-lab-EduardRaresP1ClientServersrcmain
+esourcesDatabase.db
+18 Mar 2025 16:31:29,391 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:31:30,074 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:33:29,361 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:D://Faculta//teme-lab-EduardRares//P1ClientServer//src//main//resources//Database.db} 
+18 Mar 2025 16:33:29,377 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 16:33:29,377 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:33:29,377 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 16:33:29,377 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:D://Faculta//teme-lab-EduardRares//P1ClientServer//src//main//resources//Database.db
+18 Mar 2025 16:33:29,377 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 16:33:29,377 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 16:33:29,758 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 16:33:29,775 TRACE ro.mpp2025.Repository.EmployeeRepo 86 save - Saved 1 instances
+18 Mar 2025 16:33:29,775 TRACE ro.mpp2025.Repository.EmployeeRepo 54 findAll - Enter
+18 Mar 2025 16:33:29,775 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 16:33:29,775 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 16:33:29,775 TRACE ro.mpp2025.Repository.EmployeeRepo 73 findAll - Exit with([Employee [username=testUsername, password=testPassword, email=testEmail]])
+18 Mar 2025 17:07:12,449 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+18 Mar 2025 17:07:12,457 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=testUsername, password=testPassword, email=testEmail] 
+18 Mar 2025 17:07:12,457 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:07:12,457 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 17:07:12,457 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+18 Mar 2025 17:07:12,457 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 17:07:12,457 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 17:07:12,822 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 17:07:12,838 TRACE ro.mpp2025.Repository.EmployeeRepo 86 save - Saved 1 instances
+18 Mar 2025 17:07:12,838 TRACE ro.mpp2025.Repository.EmployeeRepo 54 findAll - Enter
+18 Mar 2025 17:07:12,838 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:07:12,838 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 17:07:12,838 TRACE ro.mpp2025.Repository.EmployeeRepo 73 findAll - Exit with([Employee [username=testUsername, password=testPassword, email=testEmail], Employee [username=testUsername, password=testPassword, email=testEmail]])
+18 Mar 2025 17:07:28,354 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+18 Mar 2025 17:07:28,368 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=abcdef, password=testPassword, email=testEmail] 
+18 Mar 2025 17:07:28,368 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:07:28,368 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 17:07:28,371 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+18 Mar 2025 17:07:28,371 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 17:07:28,371 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 17:07:28,692 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 17:07:28,708 TRACE ro.mpp2025.Repository.EmployeeRepo 86 save - Saved 1 instances
+18 Mar 2025 17:07:28,708 TRACE ro.mpp2025.Repository.EmployeeRepo 54 findAll - Enter
+18 Mar 2025 17:07:28,708 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 17:07:28,708 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@21282ed8)
+18 Mar 2025 17:07:28,724 TRACE ro.mpp2025.Repository.EmployeeRepo 73 findAll - Exit with([Employee [username=testUsername, password=testPassword, email=testEmail], Employee [username=testUsername, password=testPassword, email=testEmail], Employee [username=abcdef, password=testPassword, email=testEmail]])
+18 Mar 2025 23:46:19,532 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+18 Mar 2025 23:46:19,544 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=abcdef, password=testPassword, email=testEmail] 
+18 Mar 2025 23:46:19,546 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 23:46:19,546 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+18 Mar 2025 23:46:19,547 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+18 Mar 2025 23:46:19,547 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+18 Mar 2025 23:46:19,548 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+18 Mar 2025 23:46:19,890 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a883b15)
+18 Mar 2025 23:46:19,904 TRACE ro.mpp2025.Repository.EmployeeRepo 86 save - Saved 1 instances
+18 Mar 2025 23:46:19,905 TRACE ro.mpp2025.Repository.EmployeeRepo 54 findAll - Enter
+18 Mar 2025 23:46:19,905 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+18 Mar 2025 23:46:19,906 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4a883b15)
+18 Mar 2025 23:46:19,911 TRACE ro.mpp2025.Repository.EmployeeRepo 73 findAll - Exit with([Employee [username=testUsername, password=testPassword, email=testEmail], Employee [username=testUsername, password=testPassword, email=testEmail], Employee [username=abcdef, password=testPassword, email=testEmail], Employee [username=abcdef, password=testPassword, email=testEmail]])
+19 Mar 2025 13:34:38,599 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+19 Mar 2025 13:34:38,604 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+19 Mar 2025 13:34:38,605 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+19 Mar 2025 13:34:41,609 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+19 Mar 2025 13:34:41,609 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+19 Mar 2025 13:34:41,610 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+19 Mar 2025 13:34:41,610 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+19 Mar 2025 13:34:41,610 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+19 Mar 2025 13:34:41,611 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+19 Mar 2025 13:34:41,768 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2413531)
+19 Mar 2025 13:34:49,504 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+19 Mar 2025 13:34:49,504 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+19 Mar 2025 13:34:49,505 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2413531)
+19 Mar 2025 13:34:56,512 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+19 Mar 2025 13:34:56,512 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+19 Mar 2025 13:34:56,513 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2413531)
+20 Mar 2025 10:10:14,529 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:10:14,534 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:10:14,536 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:10:18,251 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:10:18,252 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:10:18,253 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:10:18,254 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:10:18,255 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:10:18,257 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:10:18,622 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@be61b5d)
+20 Mar 2025 10:13:45,686 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:13:45,692 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:13:45,694 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:13:53,166 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:13:53,168 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:13:53,169 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:13:53,170 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:13:53,172 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:13:53,173 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:13:53,400 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6162d985)
+20 Mar 2025 10:14:41,762 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:14:41,766 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:14:41,768 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:14:45,927 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:14:45,928 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:14:45,930 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:14:45,931 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:14:45,932 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:14:45,933 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:14:46,177 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1034b214)
+20 Mar 2025 10:30:55,031 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:30:55,036 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:30:55,037 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:31:07,354 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:31:07,355 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:31:07,356 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:31:07,357 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:31:07,358 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:31:07,359 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:31:07,641 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@72788953)
+20 Mar 2025 10:31:09,054 TRACE ro.mpp2025.Repository.FlightRepo 86 findAll - Enter
+20 Mar 2025 10:31:09,055 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:31:09,056 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:31:09,057 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:31:09,058 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:31:09,059 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:31:09,062 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:31:09,073 TRACE ro.mpp2025.Repository.FlightRepo 108 findAll - Exit with([ro.mpp2025.model.Flight@57eb5411, ro.mpp2025.model.Flight@1acec77f, ro.mpp2025.model.Flight@4b60375b])
+20 Mar 2025 10:33:52,699 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:52,700 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:52,701 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:52,710 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:53,542 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:53,543 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:53,544 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:53,546 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:53,825 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:53,826 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:53,827 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:53,828 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:53,999 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:54,000 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:54,001 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:54,003 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:54,144 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:54,145 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:54,145 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:54,146 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:59,145 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:59,145 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:59,146 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:59,147 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:33:59,313 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:33:59,314 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:33:59,314 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@e822355)
+20 Mar 2025 10:33:59,317 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:35:07,823 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:35:07,828 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:35:07,829 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:35:16,508 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:35:16,510 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:35:16,511 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:35:16,512 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:35:16,515 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:35:16,517 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:35:16,767 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4d5bef09)
+20 Mar 2025 10:36:02,838 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:36:03,433 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:36:03,437 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:36:03,440 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:36:03,443 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:36:03,446 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:36:03,452 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@b0c4c4)
+20 Mar 2025 10:41:20,786 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:41:20,791 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:41:20,793 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:41:33,099 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:41:33,100 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:41:33,102 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:41:33,103 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:41:33,104 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:41:33,105 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:41:33,362 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4bf3f276)
+20 Mar 2025 10:42:08,752 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:42:10,897 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:42:10,900 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:42:10,904 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:42:10,907 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:42:10,911 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:42:10,919 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@38b11085)
+20 Mar 2025 10:43:00,104 TRACE ro.mpp2025.Repository.FlightRepo 51 findbyDestDeparture - Exit with([])
+20 Mar 2025 10:44:25,140 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:44:25,149 INFO  ro.mpp2025.Repository.FlightRepo 22 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:44:25,151 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:44:38,749 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:44:38,750 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:44:38,751 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:44:38,752 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:44:38,753 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:44:38,754 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:44:39,052 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ee8faea)
+20 Mar 2025 10:44:48,972 TRACE ro.mpp2025.Repository.FlightRepo 28 findbyDestDeparture - Enter
+20 Mar 2025 10:44:48,973 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:44:48,974 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:44:48,975 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:44:48,976 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:44:48,977 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:44:48,981 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5573848b)
+20 Mar 2025 10:55:33,324 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:55:33,329 INFO  ro.mpp2025.Repository.FlightRepo 20 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:55:33,331 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 10:55:42,027 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 10:55:42,029 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:55:42,030 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:55:42,031 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:55:42,032 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:55:42,034 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:55:42,237 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@26477b56)
+20 Mar 2025 10:55:43,498 TRACE ro.mpp2025.Repository.FlightRepo 84 findAll - Enter
+20 Mar 2025 10:55:43,499 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 10:55:43,500 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 10:55:43,501 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 10:55:43,502 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 10:55:43,503 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 10:55:43,507 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c072bd9)
+20 Mar 2025 10:55:43,526 TRACE ro.mpp2025.Repository.FlightRepo 106 findAll - Exit with([ro.mpp2025.model.Flight@1cfb64f1, ro.mpp2025.model.Flight@5b5f05ac, ro.mpp2025.model.Flight@18e95a6e])
+20 Mar 2025 11:01:06,721 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:01:06,726 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:01:06,728 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:01:16,379 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:01:16,380 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:01:16,380 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:01:16,380 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:01:16,381 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:01:16,382 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:01:16,576 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@77af2ea)
+20 Mar 2025 11:01:26,653 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:01:26,654 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:01:26,654 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:01:26,654 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:01:26,654 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:01:26,655 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:01:26,656 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ac433f)
+20 Mar 2025 11:01:26,664 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@35538324])
+20 Mar 2025 11:06:06,921 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:06:06,922 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:06:06,923 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7ac433f)
+20 Mar 2025 11:06:06,926 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@432b976e])
+20 Mar 2025 11:33:57,823 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:33:57,831 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:33:57,834 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:34:07,237 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:34:07,238 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:34:07,238 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:34:07,239 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:34:07,239 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:34:07,240 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:34:07,508 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1bce520f)
+20 Mar 2025 11:34:17,193 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:34:17,194 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:34:17,195 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:34:17,196 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:34:17,197 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:34:17,198 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:34:17,200 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@34ab69bd)
+20 Mar 2025 11:34:17,215 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@59beb585])
+20 Mar 2025 11:38:54,274 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:38:54,279 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:38:54,282 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:39:08,849 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:39:08,851 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:39:08,852 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:39:08,853 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:39:08,854 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:39:08,855 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:39:09,127 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@314b4f32)
+20 Mar 2025 11:39:17,805 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:39:17,806 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:39:17,807 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:39:17,808 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:39:17,809 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:39:17,810 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:39:17,813 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@134e38c2)
+20 Mar 2025 11:39:17,825 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@5a77493a])
+20 Mar 2025 11:40:49,877 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:40:49,893 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:40:49,897 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:41:00,250 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:41:00,252 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:41:00,253 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:41:00,254 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:41:00,255 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:41:00,256 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:41:00,563 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b6aa47d)
+20 Mar 2025 11:41:10,686 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:41:10,687 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:41:10,688 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:41:10,689 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:41:10,691 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:41:10,691 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:41:10,695 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5c69f41)
+20 Mar 2025 11:41:10,714 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@388b7c5d])
+20 Mar 2025 11:42:26,137 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:42:26,143 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:42:26,146 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:42:36,544 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:42:36,546 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:42:36,547 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:42:36,548 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:42:36,549 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:42:36,550 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:42:36,887 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@cbeab3a)
+20 Mar 2025 11:42:45,589 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:42:45,590 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:42:45,591 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:42:45,592 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:42:45,593 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:42:45,595 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:42:45,598 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7017f979)
+20 Mar 2025 11:42:45,612 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@4631609d])
+20 Mar 2025 11:43:00,976 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@6a288163 
+20 Mar 2025 11:43:00,977 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:43:00,977 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:43:00,978 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:43:00,978 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:43:00,979 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:43:00,981 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3e7300dc)
+20 Mar 2025 11:43:00,999 TRACE ro.mpp2025.Repository.TicketRepo 132 save - Saved 1 instances
+20 Mar 2025 11:45:17,436 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:45:17,449 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:45:17,454 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:45:26,898 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:45:26,899 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:45:26,900 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:45:26,901 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:45:26,904 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:45:26,907 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:45:27,279 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6b05f2c7)
+20 Mar 2025 11:45:36,067 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:45:36,068 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:45:36,069 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:45:36,069 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:45:36,070 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:45:36,070 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:45:36,072 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3b4f741)
+20 Mar 2025 11:45:36,081 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@7cadf09c])
+20 Mar 2025 11:45:46,182 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@1d9065ed 
+20 Mar 2025 11:45:46,184 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:45:46,184 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:45:46,185 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:45:46,186 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:45:46,188 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:45:46,191 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58c92d8d)
+20 Mar 2025 11:45:46,212 TRACE ro.mpp2025.Repository.TicketRepo 132 save - Saved 1 instances
+20 Mar 2025 11:46:04,171 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@23f2492f 
+20 Mar 2025 11:46:17,260 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:46:17,264 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58c92d8d)
+20 Mar 2025 11:46:21,042 TRACE ro.mpp2025.Repository.TicketRepo 132 save - Saved 1 instances
+20 Mar 2025 11:47:28,869 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:47:28,887 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:47:28,894 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 11:47:42,728 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 11:47:42,729 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:47:42,730 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:47:42,731 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:47:42,732 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:47:42,734 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:47:43,363 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@5ff272d0)
+20 Mar 2025 11:47:58,138 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 11:47:58,140 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:47:58,140 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:47:58,141 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:47:58,143 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:47:58,144 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:47:58,147 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@863b4f3)
+20 Mar 2025 11:47:58,165 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@72e0011f])
+20 Mar 2025 11:48:10,454 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@6d2f2613 
+20 Mar 2025 11:48:10,455 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:48:10,455 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 11:48:10,456 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 11:48:10,457 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 11:48:10,458 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 11:48:10,461 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d2c29b2)
+20 Mar 2025 11:48:42,473 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@e0f435 
+20 Mar 2025 11:48:42,474 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 11:48:42,475 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@d2c29b2)
+20 Mar 2025 11:48:42,500 TRACE ro.mpp2025.Repository.TicketRepo 132 save - Saved 1 instances
+20 Mar 2025 14:19:43,418 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:19:43,422 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:19:43,423 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:19:47,827 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 14:19:47,827 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:19:47,828 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 14:19:47,828 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 14:19:47,828 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 14:19:47,828 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 14:19:47,967 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@6f0eee03)
+20 Mar 2025 14:20:06,276 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:06,280 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:06,281 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:16,218 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:16,221 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:16,223 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:34,426 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:34,430 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:20:34,431 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:45:36,755 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:45:36,759 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:45:36,760 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:52:54,223 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:52:54,227 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:52:54,231 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:53:07,951 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=ceva, password=ceva, email=staff1@gmail.com] 
+20 Mar 2025 14:53:07,951 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:53:07,952 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 14:53:07,952 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 14:53:07,953 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 14:53:07,953 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 14:53:08,101 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@68921f06)
+20 Mar 2025 14:53:08,110 ERROR ro.mpp2025.Repository.EmployeeRepo 89 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE] A UNIQUE constraint failed (UNIQUE constraint failed: employee.email)
+20 Mar 2025 14:54:34,788 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:54:34,793 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:54:34,795 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:54:56,405 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=ceva, password=ceva, email=staff1@gmail.com] 
+20 Mar 2025 14:54:56,406 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:54:56,406 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 14:54:56,408 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 14:54:56,408 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 14:54:56,409 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 14:55:02,809 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58bb1ec)
+20 Mar 2025 14:55:02,825 ERROR ro.mpp2025.Repository.EmployeeRepo 89 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE] A UNIQUE constraint failed (UNIQUE constraint failed: employee.email)
+20 Mar 2025 14:55:18,138 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=ceva, password=ceva, email=staff1@gmail.com] 
+20 Mar 2025 14:55:18,617 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:55:18,618 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@58bb1ec)
+20 Mar 2025 14:55:24,648 ERROR ro.mpp2025.Repository.EmployeeRepo 89 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE] A UNIQUE constraint failed (UNIQUE constraint failed: employee.email)
+20 Mar 2025 14:56:56,913 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:56:56,917 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:56:56,919 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 14:57:07,073 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=ceva, password=ceVa, email=staff1@gmail.com] 
+20 Mar 2025 14:57:07,073 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:57:07,074 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 14:57:07,074 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 14:57:07,074 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 14:57:07,074 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 14:57:07,209 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3deb0ad1)
+20 Mar 2025 14:57:07,215 ERROR ro.mpp2025.Repository.EmployeeRepo 89 save - org.sqlite.SQLiteException: [SQLITE_CONSTRAINT_UNIQUE] A UNIQUE constraint failed (UNIQUE constraint failed: employee.email)
+20 Mar 2025 14:57:16,369 TRACE ro.mpp2025.Repository.EmployeeRepo 79 save - Enter saving employee Employee [username=staff3@gmail.com, password=staff3@gmail.com, email=staff3@gmail.com] 
+20 Mar 2025 14:57:16,369 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 14:57:16,370 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3deb0ad1)
+20 Mar 2025 14:57:16,376 TRACE ro.mpp2025.Repository.EmployeeRepo 86 save - Saved 1 instances
+20 Mar 2025 15:02:23,120 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 15:02:23,124 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 15:02:23,125 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+20 Mar 2025 15:02:30,826 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 15:02:30,826 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:30,826 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 15:02:30,827 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 15:02:30,827 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 15:02:30,828 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 15:02:30,946 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d5a0fa3)
+20 Mar 2025 15:02:35,969 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 15:02:35,970 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:35,970 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d5a0fa3)
+20 Mar 2025 15:02:39,898 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+20 Mar 2025 15:02:39,898 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:39,899 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1d5a0fa3)
+20 Mar 2025 15:02:43,062 TRACE ro.mpp2025.Repository.FlightRepo 87 findAll - Enter
+20 Mar 2025 15:02:43,063 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:43,063 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 15:02:43,063 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 15:02:43,064 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 15:02:43,064 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 15:02:43,065 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:02:43,068 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@6985082, ro.mpp2025.model.Flight@53a6c150, ro.mpp2025.model.Flight@5f0be642])
+20 Mar 2025 15:02:46,993 TRACE ro.mpp2025.Repository.FlightRepo 87 findAll - Enter
+20 Mar 2025 15:02:46,994 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:46,994 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:02:46,995 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@7a63f58d, ro.mpp2025.model.Flight@1c447d52, ro.mpp2025.model.Flight@71a2f37])
+20 Mar 2025 15:02:56,781 TRACE ro.mpp2025.Repository.FlightRepo 29 findbyDestDeparture - Enter
+20 Mar 2025 15:02:56,781 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:02:56,781 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:02:56,782 TRACE ro.mpp2025.Repository.FlightRepo 52 findbyDestDeparture - Exit with([ro.mpp2025.model.Flight@3c296ab7])
+20 Mar 2025 15:03:17,505 TRACE ro.mpp2025.Repository.TicketRepo 125 save - Enter saving ticket ro.mpp2025.model.Ticket@43480d80 
+20 Mar 2025 15:03:17,505 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:03:17,505 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+20 Mar 2025 15:03:17,506 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+20 Mar 2025 15:03:17,506 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+20 Mar 2025 15:03:17,506 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+20 Mar 2025 15:03:17,507 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@c5349da)
+20 Mar 2025 15:03:17,513 TRACE ro.mpp2025.Repository.TicketRepo 132 save - Saved 1 instances
+20 Mar 2025 15:03:17,525 TRACE ro.mpp2025.Repository.FlightRepo 151 update - Enter updating flight ro.mpp2025.model.Flight@3c296ab7 
+20 Mar 2025 15:03:17,525 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:03:17,525 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:03:17,528 TRACE ro.mpp2025.Repository.FlightRepo 157 update - Updated 1 instances
+20 Mar 2025 15:03:17,530 TRACE ro.mpp2025.Repository.FlightRepo 87 findAll - Enter
+20 Mar 2025 15:03:17,530 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:03:17,530 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:03:17,531 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@725f147d, ro.mpp2025.model.Flight@40dfabc9, ro.mpp2025.model.Flight@2f54f747])
+20 Mar 2025 15:03:17,531 TRACE ro.mpp2025.Repository.FlightRepo 87 findAll - Enter
+20 Mar 2025 15:03:17,531 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:03:17,532 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:03:17,532 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@427ec224, ro.mpp2025.model.Flight@7f42a841, ro.mpp2025.model.Flight@77249621])
+20 Mar 2025 15:03:17,532 TRACE ro.mpp2025.Repository.FlightRepo 87 findAll - Enter
+20 Mar 2025 15:03:17,533 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+20 Mar 2025 15:03:17,533 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@42845813)
+20 Mar 2025 15:03:17,534 TRACE ro.mpp2025.Repository.FlightRepo 109 findAll - Exit with([ro.mpp2025.model.Flight@4d24a4e3, ro.mpp2025.model.Flight@27ce1da6, ro.mpp2025.model.Flight@740812e0])
+03 Apr 2025 17:08:25,525 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:08:25,529 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:08:25,531 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:08:26,446 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:26,446 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:26,446 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:08:26,447 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:08:26,447 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:08:26,447 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:08:26,593 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:08:30,469 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:30,469 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:30,469 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:08:30,469 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:08:30,470 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:08:30,470 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:08:30,608 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:53,771 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:53,772 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:53,772 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:54,803 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:54,803 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:54,803 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:55,267 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:55,268 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:55,268 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:55,429 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:55,429 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:55,429 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:55,589 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:55,590 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:55,590 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:55,786 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:55,786 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:55,786 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:56,594 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:56,594 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:56,595 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@3f82a5bc)
+03 Apr 2025 17:08:59,000 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:59,000 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:59,001 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:08:59,265 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:59,265 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:59,266 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:08:59,445 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:59,446 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:59,446 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:08:59,718 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:08:59,718 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:08:59,718 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:09:00,044 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:00,044 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:00,044 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:09:00,232 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:00,233 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:00,233 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:09:00,390 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:00,391 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:00,391 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:09:02,691 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:02,691 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:02,692 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@2deb7ac8)
+03 Apr 2025 17:09:08,176 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:08,180 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:08,182 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:10,833 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:10,833 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:10,833 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:09:10,834 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:09:10,834 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:09:10,834 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:09:10,959 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@7b706a0)
+03 Apr 2025 17:09:33,784 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:33,787 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:33,789 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:09:36,312 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:36,312 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:36,312 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:09:36,313 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:09:36,313 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:09:36,313 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:09:36,445 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@698ee9b6)
+03 Apr 2025 17:09:38,647 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:09:38,648 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:09:38,648 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@698ee9b6)
+03 Apr 2025 17:10:47,638 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:10:47,641 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:10:47,643 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:10:55,470 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:10:55,471 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:10:55,471 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:10:55,471 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:10:55,471 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:10:55,472 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:10:55,589 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@4fa88a3d)
+03 Apr 2025 17:12:03,400 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:03,404 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:03,405 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:09,445 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:12:09,445 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:12:09,445 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:12:09,446 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:12:09,446 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:12:09,446 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:12:09,576 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b1aef1d)
+03 Apr 2025 17:12:37,243 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:37,246 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:37,248 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:40,707 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:12:40,707 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:12:40,707 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:12:40,708 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:12:40,708 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:12:40,708 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:12:40,828 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@698ee9b6)
+03 Apr 2025 17:12:48,184 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:48,187 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:48,189 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:12:50,459 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:12:50,459 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:12:50,460 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:12:50,460 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:12:50,460 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:12:50,460 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:12:50,590 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@698ee9b6)
+03 Apr 2025 17:13:11,789 INFO  ro.mpp2025.Repository.EmployeeRepo 21 <init> - Initializing EmployeeRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:13:11,792 INFO  ro.mpp2025.Repository.FlightRepo 23 <init> - Initializing FlightRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:13:11,793 INFO  ro.mpp2025.Repository.TicketRepo 21 <init> - Initializing TicketRepo with properties: {jdbc.url=jdbc:sqlite:src//main//resources//Database.db} 
+03 Apr 2025 17:13:13,886 TRACE ro.mpp2025.Repository.EmployeeRepo 132 login - Enter
+03 Apr 2025 17:13:13,886 TRACE ro.mpp2025.Repository.JdbcUtils 48 getConnection - Enter
+03 Apr 2025 17:13:13,887 TRACE ro.mpp2025.Repository.JdbcUtils 25 getNewConnection - Enter
+03 Apr 2025 17:13:13,887 INFO  ro.mpp2025.Repository.JdbcUtils 30 getNewConnection - trying to connect to database ... jdbc:sqlite:src//main//resources//Database.db
+03 Apr 2025 17:13:13,887 INFO  ro.mpp2025.Repository.JdbcUtils 31 getNewConnection - user: null
+03 Apr 2025 17:13:13,887 INFO  ro.mpp2025.Repository.JdbcUtils 32 getNewConnection - pass: null
+03 Apr 2025 17:13:14,006 TRACE ro.mpp2025.Repository.JdbcUtils 57 getConnection - Exit with(org.sqlite.jdbc4.JDBC4Connection@1b9d82de)

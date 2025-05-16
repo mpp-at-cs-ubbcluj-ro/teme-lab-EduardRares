@@ -1,0 +1,13 @@
+rootProject.name = 'ClientServer'
+include 'Model'
+include 'Services'
+include 'Services'
+include 'Persistence'
+include 'Server'
+include 'Networking'
+include 'Client'
+
+
+include 'REST-Server'
+include 'REST-Service'
+include 'REST_Services'

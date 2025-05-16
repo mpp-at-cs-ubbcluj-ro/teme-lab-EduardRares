@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/ClientServer" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/ClientServer" />
+            <option value="$PROJECT_DIR$/ClientServer/Client" />
+            <option value="$PROJECT_DIR$/ClientServer/Model" />
+            <option value="$PROJECT_DIR$/ClientServer/Networking" />
+            <option value="$PROJECT_DIR$/ClientServer/Persistence" />
+            <option value="$PROJECT_DIR$/ClientServer/REST-Server" />
+            <option value="$PROJECT_DIR$/ClientServer/REST-Service" />
+            <option value="$PROJECT_DIR$/ClientServer/REST_Services" />
+            <option value="$PROJECT_DIR$/ClientServer/Server" />
+            <option value="$PROJECT_DIR$/ClientServer/Services" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab3" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Lab3" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/P1ClientServer" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/P1ClientServer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/StartGradle" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/StartGradle" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/TemaLab4" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/TemaLab4" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
