@@ -1,9 +1,9 @@
 DSending a GET request to http://localhost:8080/flights and body []
 Got response code 200 OK
-)Adding a new user model.Flight@3241713e
-óSending a POST request to http://localhost:8080/flights and body [{"destination":"Barcelona","departureTime":[10,0],"airport":"BarcAirport","numberOfAvailableSeats":200,"id":"BRC001","departureTimeValue":[10,0],"departureTimeMillis":200000}]
+)Adding a new user model.Flight@7051777c
+×Sending a POST request to http://localhost:8080/flights and body [{"destination":"Barcelona","departureTime":[10,0],"airport":"BarcAirport","numberOfAvailableSeats":200,"id":"BRC001","departureTimeMillis":200000}]
 Got response code 200 OK
-model.Flight@12db3386
+model.Flight@425d5d46
 
 Printing all users ...
 DSending a GET request to http://localhost:8080/flights and body []
@@ -11,10 +11,5 @@
 NYC001: New York
 LON002: London
 PAR003: Paris
+BUC001: Bucurest
 BRC001: Barcelona
-KSending a GET request to http://localhost:8080/flights/BRC001 and body []
-Got response code 200 OK
-NSending a DELETE request to http://localhost:8080/flights/BRC001 and body []
-Got response code 200 OK
-DSending a GET request to http://localhost:8080/flights and body []
-Got response code 200 OK

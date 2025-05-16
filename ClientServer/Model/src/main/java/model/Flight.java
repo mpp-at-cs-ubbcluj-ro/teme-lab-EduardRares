@@ -43,10 +43,6 @@ public class Flight implements model.Entity<String>, Comparable<Flight>, Seriali
         this.destination = destination;
     }
 
-    public LocalTime getDepartureTimeValue() {
-        return departureTime;
-    }
-
     public LocalTime getDepartureTime() {
         return departureTime;
     }

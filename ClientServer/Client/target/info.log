@@ -1267,3 +1267,27 @@
 12 May 2025 16:58:04,491 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
 12 May 2025 16:58:12,789 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
 12 May 2025 16:58:13,754 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:15:03,915 DEBUG client.Main 28 start - In start
+13 May 2025 16:15:03,927 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+13 May 2025 16:15:03,928 INFO  client.Main 49 start - Using server IP localhost
+13 May 2025 16:15:03,928 INFO  client.Main 50 start - Using server port 55556
+13 May 2025 16:15:04,694 DEBUG client.controller.UserController 123 initialize - INIT : am in lista de zboruri 0
+13 May 2025 16:15:04,694 DEBUG client.controller.UserController 124 initialize - END INIT!!!!!!!!!
+13 May 2025 16:36:49,714 DEBUG client.Main 28 start - In start
+13 May 2025 16:36:49,719 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+13 May 2025 16:36:49,719 INFO  client.Main 49 start - Using server IP localhost
+13 May 2025 16:36:49,720 INFO  client.Main 50 start - Using server port 55556
+13 May 2025 16:36:50,739 DEBUG client.controller.UserController 123 initialize - INIT : am in lista de zboruri 0
+13 May 2025 16:36:50,740 DEBUG client.controller.UserController 124 initialize - END INIT!!!!!!!!!
+13 May 2025 16:36:54,950 DEBUG client.Main 28 start - In start
+13 May 2025 16:36:54,957 INFO  client.Main 32 start - Client properties set {chat.server.port=55556, chat.server.host=localhost} 
+13 May 2025 16:36:54,957 INFO  client.Main 49 start - Using server IP localhost
+13 May 2025 16:36:54,958 INFO  client.Main 50 start - Using server port 55556
+13 May 2025 16:36:55,639 DEBUG client.controller.UserController 123 initialize - INIT : am in lista de zboruri 0
+13 May 2025 16:36:55,640 DEBUG client.controller.UserController 124 initialize - END INIT!!!!!!!!!
+13 May 2025 16:37:02,644 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:37:09,338 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:37:43,944 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:37:44,924 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:38:02,872 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
+13 May 2025 16:38:03,864 DEBUG client.controller.UserController 73 handleFlights - INIT : am in lista de zboruri 3
