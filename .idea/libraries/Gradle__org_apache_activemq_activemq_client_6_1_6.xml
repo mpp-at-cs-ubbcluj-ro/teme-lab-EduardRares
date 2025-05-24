@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.activemq:activemq-client:6.1.6" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.apache.activemq" artifactId="activemq-client" version="6.1.6" baseVersion="6.1.6" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-client/6.1.6/64c52537aebd2b88cb3c39e2aa2c5e833fc76772/activemq-client-6.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

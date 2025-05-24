@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="ClientServer" target="23" />
+      <module name="ClientServer.Client" target="23" />
+      <module name="ClientServer.Client.main" target="23" />
+      <module name="ClientServer.Client.test" target="23" />
+      <module name="ClientServer.main" target="23" />
+      <module name="ClientServer.Model" target="17" />
+      <module name="ClientServer.Model.main" target="17" />
+      <module name="ClientServer.Model.test" target="17" />
+      <module name="ClientServer.Networking" target="23" />
+      <module name="ClientServer.Networking.main" target="23" />
+      <module name="ClientServer.Networking.test" target="23" />
+      <module name="ClientServer.Persistence" target="17" />
+      <module name="ClientServer.Persistence.main" target="17" />
+      <module name="ClientServer.Persistence.test" target="17" />
+      <module name="ClientServer.REST-Server.main" target="23" />
+      <module name="ClientServer.REST-Server.test" target="23" />
+      <module name="ClientServer.REST-Service.main" target="23" />
+      <module name="ClientServer.REST-Service.test" target="23" />
+      <module name="ClientServer.REST_Services" target="17" />
+      <module name="ClientServer.REST_Services.main" target="17" />
+      <module name="ClientServer.REST_Services.test" target="17" />
+      <module name="ClientServer.Server" target="23" />
+      <module name="ClientServer.Server.main" target="23" />
+      <module name="ClientServer.Server.test" target="23" />
+      <module name="ClientServer.Services" target="17" />
+      <module name="ClientServer.Services.main" target="17" />
+      <module name="ClientServer.Services.test" target="17" />
+      <module name="ClientServer.test" target="23" />
+      <module name="Lab3" target="23" />
+      <module name="Lab3.main" target="23" />
+      <module name="Lab3.test" target="23" />
+      <module name="P1ClientServer" target="23" />
+      <module name="P1ClientServer.main" target="23" />
+      <module name="P1ClientServer.test" target="23" />
+      <module name="StartGradle" target="23" />
+      <module name="StartGradle.main" target="23" />
+      <module name="StartGradle.test" target="23" />
+      <module name="TemaLab4" target="23" />
+      <module name="TemaLab4.main" target="23" />
+      <module name="TemaLab4.test" target="23" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ClientServer.REST_Services" options="-parameters" />
+      <module name="ClientServer.REST_Services.main" options="-parameters" />
+      <module name="ClientServer.REST_Services.test" options="-parameters" />
+    </option>
+  </component>
+</project>
