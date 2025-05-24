@@ -12,7 +12,7 @@ repositories {
 }
 
 application {
-    mainClass = 'client.Main'
+    mainClass = 'client.StartAMSClient'
 }
 
 javafx {
@@ -28,6 +28,10 @@ dependencies {
     implementation project (':Networking')
     implementation 'org.apache.logging.log4j:log4j-core:2.24.3'
     implementation 'org.apache.logging.log4j:log4j-api:2.24.3'
+    implementation("org.apache.activemq:activemq-broker:6.1.6")
+    implementation("org.springframework:spring-jms:6.2.6")
+    implementation("org.springframework:spring-context:6.2.6")
+    implementation("jakarta.jms:jakarta.jms-api:3.1.0")
 }
 
 test {

@@ -16,11 +16,31 @@
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-core:2.24.3" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.logging.log4j:log4j-api:2.24.3" level="project" />
     <orderEntry type="library" name="Gradle: org.xerial:sqlite-jdbc:3.48.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-broker:6.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jms:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-context:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-openwire-legacy:6.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.activemq:activemq-client:6.1.6" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.annotation:jakarta.annotation-api:2.1.1" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.18.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-messaging:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-tx:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-beans:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-core:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-observation:1.14.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-aop:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-expression:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:2.0.16" level="project" />
+    <orderEntry type="library" name="Gradle: jakarta.jms:jakarta.jms-api:3.1.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.fusesource.hawtbuf:hawtbuf:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.18.3" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.18.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.springframework:spring-jcl:6.2.6" level="project" />
+    <orderEntry type="library" name="Gradle: io.micrometer:micrometer-commons:1.14.5" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.orm:hibernate-community-dialects:6.4.4.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.orm:hibernate-core:6.4.4.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.hibernate.validator:hibernate-validator:8.0.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish:jakarta.el:4.0.2" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-context:6.1.14" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.google.protobuf:protobuf-java:3.21.9" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.jboss.logging:jboss-logging:3.5.0.Final" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.persistence:jakarta.persistence-api:3.1.0" level="project" />
@@ -35,15 +55,8 @@
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.antlr:antlr4-runtime:4.13.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.validation:jakarta.validation-api:3.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.el:jakarta.el-api:4.0.0" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-aop:6.1.14" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-beans:6.1.14" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-expression:6.1.14" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-core:6.1.14" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.micrometer:micrometer-observation:1.12.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:jaxb-core:4.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: jakarta.activation:jakarta.activation-api:2.1.1" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.springframework:spring-jcl:6.1.14" level="project" />
-    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.micrometer:micrometer-commons:1.12.11" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.eclipse.angus:angus-activation:2.0.0" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: org.glassfish.jaxb:txw2:4.0.2" level="project" />
     <orderEntry type="library" scope="RUNTIME" name="Gradle: com.sun.istack:istack-commons-runtime:4.1.1" level="project" />

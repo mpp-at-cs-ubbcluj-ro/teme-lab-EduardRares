@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="
+           http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/util
+           http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps" location="classpath:server.properties"/>
+
+    <bean id="employeeRepo" class="persistence.EmployeeRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="flightRepo" class="persistence.FlightRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="ticketRepo" class="persistence.TicketRepo">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616"/> <!-- ActiveMQ port -->
+        <property name="trustedPackages">
+            <list>
+                <value>model</value>
+                <value>model.notification</value>
+            </list>
+        </property>
+    </bean>
+
+    <bean id="topic" class="org.apache.activemq.command.ActiveMQTopic">
+        <constructor-arg value="FlightUpdatesTopic"/>
+    </bean>
+
+    <bean id="converter" class="org.springframework.jms.support.converter.MappingJackson2MessageConverter">
+        <property name="targetType" value="TEXT"/>
+        <property name="typeIdPropertyName" value="_notification"/>
+        <property name="typeIdMappings">
+            <map>
+                <entry key="model.notification.Notification" value="model.notification.Notification"/>
+            </map>
+        </property>
+    </bean>
+
+    <bean id="jmsTemplate" class="org.springframework.jms.core.JmsTemplate">
+        <constructor-arg ref="connectionFactory"/>
+        <property name="defaultDestination" ref="topic"/>
+        <property name="messageConverter" ref="converter"/>
+        <property name="pubSubDomain" value="true"/> <!-- Ensure topic mode -->
+    </bean>
+
+    <bean id="notificationService" class="server.NotificationServerImpl">
+        <constructor-arg ref="jmsTemplate"/>
+    </bean>
+
+    <bean id="appServer" class="server.ServerAMSImpl">
+        <constructor-arg ref="employeeRepo"/>
+        <constructor-arg ref="ticketRepo"/>
+        <constructor-arg ref="flightRepo"/>
+        <constructor-arg ref="notificationService"/>
+    </bean>
+
+    <bean id="appTCPServer" class="networking.ChatRpcAMSConcurrentServer">
+        <constructor-arg value="#{jdbcProps.getProperty('chat.server.port')}"/>
+        <constructor-arg ref="appServer"/>
+    </bean>
+
+</beans>

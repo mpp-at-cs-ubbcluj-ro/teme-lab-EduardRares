@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Configuration status="info">
+<Configuration status="WARN">
     <Appenders>
         <Console name="Console" target="SYSTEM_OUT">
-
             <PatternLayout pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n"/>
         </Console>
         <File name="log" fileName="target/info.log" append="true">
             <PatternLayout pattern="%d{DATE} %-5level %class{36} %L %M - %msg%n"/>
-        </File>c
+        </File> <!-- Removed the stray 'c' -->
     </Appenders>
     <Loggers>
+        <!-- Logger for Spring JMS polling -->
+        <Logger name="org.springframework.jms.listener.AbstractPollingMessageListenerContainer"
+                level="INFO" /> <!-- Moved INSIDE <Loggers> -->
+
         <Root level="trace">
             <AppenderRef ref="log"/>
             <AppenderRef ref="Console"/>

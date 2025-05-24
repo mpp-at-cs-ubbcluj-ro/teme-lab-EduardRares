@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="Gradle: org.apache.activemq:activemq-openwire-legacy:6.1.6" type="java-imported" external-system-id="GRADLE">
+    <properties groupId="org.apache.activemq" artifactId="activemq-openwire-legacy" version="6.1.6" baseVersion="6.1.6" />
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.activemq/activemq-openwire-legacy/6.1.6/97650c33b91f5bc9d7793e6b2fa9bf5e6e91576c/activemq-openwire-legacy-6.1.6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
